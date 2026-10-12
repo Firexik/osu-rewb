@@ -1,0 +1,160 @@
+{
+  "course": "ZS 2026/2027 - Responzivní webové stránky (KIP/7REWB)",
+  "url": "https://moodle.osu.cz/course/view.php?id=12050",
+  "exportDate": "2026-10-12",
+  "sections": [
+    {
+      "id": "143993",
+      "links": [
+        {
+          "title": "Basic information\nStránka",
+          "url": "https://moodle.osu.cz/mod/page/view.php?id=802279"
+        },
+        {
+          "title": "Example website using framework Foundation\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802280"
+        },
+        {
+          "title": "Example website using framework Tailwind CSS\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802281"
+        },
+        {
+          "title": "Oznámení\nFórum",
+          "url": "https://moodle.osu.cz/mod/forum/view.php?id=802282"
+        }
+      ],
+      "summary": "",
+      "title": "Introduction",
+      "url": "https://moodle.osu.cz/course/section.php?id=143993",
+      "status": "Dostupné"
+    },
+    {
+      "id": "143994",
+      "links": [
+        {
+          "title": "PPT presentation\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802283"
+        }
+      ],
+      "summary": " Introduction to responsive web pages\n\nContent:\n\nwebpages\nmobile devices\nresponsive webdesign\nresponsive webdesign principles\nrelative units\nabsolute units\nviewport specification",
+      "title": "Introduction to responsive web pages",
+      "url": "https://moodle.osu.cz/course/section.php?id=143994",
+      "status": "Dostupné"
+    },
+    {
+      "id": "143995",
+      "links": [
+        {
+          "title": "PPT presentation\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802284"
+        }
+      ],
+      "summary": "Structure of responsive webpages\n\nContent: \n\nresponsive webpages examples\nmobile first approach\nmobile version vs responsive website\nrules for designing a website structure\nCSS optimization\nCDN\nimage optimization",
+      "title": "Structure of responsive webpages",
+      "url": "https://moodle.osu.cz/course/section.php?id=143995",
+      "status": "Dostupné"
+    },
+    {
+      "id": "143996",
+      "links": [
+        {
+          "title": "PPT presentation\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802285"
+        }
+      ],
+      "summary": "Current frameworks for responsive web\n\nContent:\n\nBenefits of using the framework\nBootstrap\nFoundation\nBulma\nMaterialize\nUIKit\nPureCSS\nMiligram",
+      "title": "Current frameworks for responsive web",
+      "url": "https://moodle.osu.cz/course/section.php?id=143996",
+      "status": "Dostupné"
+    },
+    {
+      "id": "143997",
+      "links": [
+        {
+          "title": "PPT presentation\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802286"
+        }
+      ],
+      "summary": "Flexbox and grid system\n\nContent:\n\nflexbox\nproperties for parent elements\nproperties for child elements\nflex-wrap\nflex-direction\n ",
+      "title": "Flexbox and grid system",
+      "url": "https://moodle.osu.cz/course/section.php?id=143997",
+      "status": "Dostupné"
+    },
+    {
+      "id": "143998",
+      "links": [
+        {
+          "title": "PPT presentation\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802287"
+        }
+      ],
+      "summary": "Practical usage of the Bootstrap framework – media queries, menu, templates\n\nContent:\n\nmedia queries\nspecification Level 4\nbreakpoints\nnavbar, pills, tabs\ntemplates",
+      "title": "Practical usage of the Bootstrap framework – media queries, menu, templates",
+      "url": "https://moodle.osu.cz/course/section.php?id=143998",
+      "status": "Dostupné"
+    },
+    {
+      "id": "143999",
+      "links": [
+        {
+          "title": "PPT presentation\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802288"
+        }
+      ],
+      "summary": "Practical usage of the Bootstrap framework – images, embed, carousel, icons\n\nContent:\n\nimages\nembed\ncarousel\nicons\nFontAwesome icons",
+      "title": "Practical usage of the Bootstrap framework – images, embed, carousel, icons",
+      "url": "https://moodle.osu.cz/course/section.php?id=143999",
+      "status": "Dostupné"
+    },
+    {
+      "id": "144000",
+      "links": [
+        {
+          "title": "Semester project\nÚkol",
+          "url": "https://moodle.osu.cz/mod/assign/view.php?id=802289"
+        }
+      ],
+      "summary": "Semester project",
+      "title": "Semester project",
+      "url": "https://moodle.osu.cz/course/section.php?id=144000",
+      "status": "Dostupné"
+    },
+    {
+      "id": "144001",
+      "links": [
+        {
+          "title": "Task 1\nÚkol",
+          "url": "https://moodle.osu.cz/mod/assign/view.php?id=802290"
+        },
+        {
+          "title": "Task 2\nÚkol",
+          "url": "https://moodle.osu.cz/mod/assign/view.php?id=802291"
+        },
+        {
+          "title": "Homework - modal\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802295"
+        }
+      ],
+      "summary": "Correspondence tasks (only for XREWB and 2REWB students)",
+      "title": "Correspondence tasks (only for XREWB and 2REWB students)",
+      "url": "https://moodle.osu.cz/course/section.php?id=144001",
+      "status": "Dostupné"
+    },
+    {
+      "id": "146639",
+      "links": [],
+      "summary": "",
+      "title": "Practices",
+      "url": "https://moodle.osu.cz/course/section.php?id=146639",
+      "status": "Prázdná podsekce"
+    },
+    {
+      "id": "144002",
+      "links": [],
+      "summary": "",
+      "title": "Practices",
+      "url": "https://moodle.osu.cz/course/section.php?id=144002",
+      "status": "Není dostupné"
+    }
+  ]
+}

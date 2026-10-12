@@ -1,0 +1,16 @@
+Create 3 wireframes in Figma tool (https://www.figma.com/) for the product detail - for PC, tablet and mobile phone
+
+The output is a total of 3 wireframes!
+
+Wireframe contains:
+
+on the left - name, photo and description
+on the right - price excluding VAT, price including VAT, product code, add to cart button
+under the photo - tabs:
+Parameters - dimensions, operating system, internal memory, camera resolution, display type, Wi-Fi, Color
+Reviews - list of reviews for the product, author, text, number of stars
+Related products - list of related products - e.g. headphones, hands-free kit, cover, charger, etc.
+
+Insert real texts into wireframes for product detail. 
+
+Export wireframes to PDF and upload them here.

@@ -1,0 +1,15 @@
+Content: 
+
+1. Responsive website characteristics - mobile-first concept, responsive design, flexbox, SCSS
+2. Creating wireframe responsive websites for different types of devices
+3. Responsive navigation menu, work with grid system
+4. Responsive web form, creation of different types of forms
+5. Working with modal window and its modifications
+6. Tables and their features and limitations in responsive websites
+7. Work with the DataTable component, data sorting, filtering, and paging
+8. Creating structure of a simple web containing news and articles
+9. Create responsive web pages based on a predefined template
+10. Work with different types of navigation menu, work with tabs
+11. Working with embed objects, designing a simple portal for publishing multimedia content
+12. Design your own comprehensive responsive web pages
+13. Implementation of your own comprehensive responsive web pages

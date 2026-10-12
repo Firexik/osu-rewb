@@ -1,0 +1,13 @@
+Download the Bootstrap framework (https://getbootstrap.com/docs/5.3/getting-started/download/) and create a new page called detail.html
+
+In the detail.html file, create an article detail as follows:
+
+The grid system will be divided into 8 columns for the article detail and 4 columns for the More Articles section
+The article detail will be on the left, the More Articles section on the right - the layout using a wireframe is here: https://wireframe.cc/qRS50Q and below in the document
+At the top will be the level 1 heading - the article title
+Below the heading will be the date - suitably styled - choose a Badge
+Below the date will be a centered image of the article (the width of the image will be 50% of the possible display area) use a suitable div of the col class
+Below the image will be the text of the article (download the full description of the article- https://cs.wikipedia.org/wiki/Vltava) - but display only the first approximately 5 lines of the article text and the rest of the article text will be displayed only after clicking the show more button - use the Collapse functionality for this
+Next to the article will be the More Articles section - where you will display 3 arbitrary articles below each other - always the title, date, image and the article detail button - individual articles suitably style and separate with horizontal lines
+
+HTML file with other files (framework Boostrap) upload here as one ZIP file

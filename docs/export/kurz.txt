@@ -1,0 +1,123 @@
+Osnova sekce
+Sbalit
+Introduction
+Sbalit vše
+
+KIP/7REWB
+
+Responsive webpages
+
+Basic information
+Stránka
+Example website using framework Foundation
+Soubor
+Example website using framework Tailwind CSS
+Soubor
+Oznámení
+Fórum
+Sbalit
+Introduction to responsive web pages
+
+ Introduction to responsive web pages
+
+Content:
+
+webpages
+mobile devices
+responsive webdesign
+responsive webdesign principles
+relative units
+absolute units
+viewport specification
+PPT presentation
+Soubor
+Sbalit
+Structure of responsive webpages
+Structure of responsive webpages
+
+Content: 
+
+responsive webpages examples
+mobile first approach
+mobile version vs responsive website
+rules for designing a website structure
+CSS optimization
+CDN
+image optimization
+PPT presentation
+Soubor
+Sbalit
+Current frameworks for responsive web
+Current frameworks for responsive web
+
+Content:
+
+Benefits of using the framework
+Bootstrap
+Foundation
+Bulma
+Materialize
+UIKit
+PureCSS
+Miligram
+PPT presentation
+Soubor
+Sbalit
+Flexbox and grid system
+Flexbox and grid system
+
+Content:
+
+flexbox
+properties for parent elements
+properties for child elements
+flex-wrap
+flex-direction
+ 
+PPT presentation
+Soubor
+Sbalit
+Practical usage of the Bootstrap framework – media queries, menu, templates
+Practical usage of the Bootstrap framework – media queries, menu, templates
+
+Content:
+
+media queries
+specification Level 4
+breakpoints
+navbar, pills, tabs
+templates
+PPT presentation
+Soubor
+Sbalit
+Practical usage of the Bootstrap framework – images, embed, carousel, icons
+Practical usage of the Bootstrap framework – images, embed, carousel, icons
+
+Content:
+
+images
+embed
+carousel
+icons
+FontAwesome icons
+PPT presentation
+Soubor
+Sbalit
+Semester project
+Semester project
+Semester project
+Úkol
+Sbalit
+Correspondence tasks (only for XREWB and 2REWB students)
+Correspondence tasks (only for XREWB and 2REWB students)
+Task 1
+Úkol
+Task 2
+Úkol
+Sbalit
+Practices
+Homework - modal
+Soubor
+Sbalit
+Practices
+Není dostupné
