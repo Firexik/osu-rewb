@@ -76,6 +76,48 @@
 
           </form>
 
+          <h3>Classic form</h3>
+          <form class="row g-3 row-cols-1 row-cols-md-2">
+            <div class="col mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control is-valid" id="name" value="" required>
+              <div class="valid-feedback">
+                Correct
+              </div>
+            </div>
+            <div class="col mb-3">
+              <label for="surname" class="form-label">Surname</label>
+              <input type="text" class="form-control is-invalid" id="surname" value="" required>
+              <div class="invalid-feedback">
+                Incorrect
+              </div>
+            </div>
+            <div class="col mb-3">
+              <label for="region" class="form-label">Region</label>
+              <select class="form-select" id="region">
+                <option selected disabled value="">Select region</option>
+                <option value="MSK">Moravskoslezský</option>
+                <option value="OL">Olomoucký</option>
+                <option value="JM">Jihomoravský</option>
+              </select>
+            </div>
+            <div class="col mb-3">
+              <label for="range" class="form-label">Range</label>
+              <input type="range" class="form-range" name="range" min="0" max="10">
+            </div>
+            <div class="col mb-3">
+              <label for="age" class="form-label">Age</label>
+              <input type="number" class="form-control" name="age" value="18">
+            </div>
+            <div class="col mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" value="" required>
+            </div>
+            <div class="col mb-3">
+              <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+          </form>
+
 
         </div>
       </div>

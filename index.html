@@ -61,19 +61,40 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div class="col">
           <h2>Column 1</h2>
-          <button type="button" class=""></button>
+          <button type="button" class="btn btn-success">Read more</button>
         </div>
         <div class="col">
           <h2>Column 2</h2>
-          <button type="button" class=""></button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Modal
+          </button>
         </div>
         <div class="col">
           <h2>Column 3</h2>
-          <button type="button" class=""></button>
+          <button type="button" class="btn btn-warning">Read more</button>
         </div>
       </div>
     </div>
 
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-md-down">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dolor arcu, congue nec molestie ac, pulvinar at quam. Pellentesque quis tortor a eros semper sagittis a eu elit. Cras semper magna non est mollis convallis. Vivamus tempus eget nisl vel ornare. Donec vehicula, massa ac tincidunt vestibulum, orci tortor dictum leo, ac lacinia est sapien a massa. Quisque ultrices sem ac ex venenatis, at sodales sapien congue. Nunc at mauris rhoncus, cursus nibh sit amet, blandit quam.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   </main>
        
