@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0c866-8d70-48f4-8ebe-dfec24a5c64b" name="Changes" comment="" />
+    <list default="true" id="00a0c866-8d70-48f4-8ebe-dfec24a5c64b" name="Changes" comment="chore: add IntelliJ IDEA project configuration files to version control" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +16,6 @@
     </execution>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="54" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -33,12 +32,12 @@
     &quot;assignee&quot;: &quot;Firexik&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Firexik/osu-rewb.git&quot;,
-    &quot;accountId&quot;: &quot;3ea90cfd-402e-453c-a104-d711cb241352&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Firexik/osu-rewb.git",
+    "accountId": "5e42e769-b480-4af4-9d20-8b32129255bb"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -102,6 +101,7 @@
       <entry key="W1" value="12.99765111751526" />
     </decayedShown>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -114,19 +114,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "cv2-6.10.2026",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general"
+    "settings.editor.selected.configurable": "preferences.general",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -148,11 +152,25 @@
       <workItem from="1791304581155" duration="319000" />
       <workItem from="1791304913141" duration="178000" />
       <workItem from="1791793152445" duration="52000" />
+      <workItem from="1791905475655" duration="367000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: add IntelliJ IDEA project configuration files to version control">
+      <option name="closed" value="true" />
+      <created>1791905694871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791905694871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: add IntelliJ IDEA project configuration files to version control" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add IntelliJ IDEA project configuration files to version control" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
