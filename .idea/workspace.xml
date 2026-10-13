@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00a0c866-8d70-48f4-8ebe-dfec24a5c64b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="54" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Firexik&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Firexik/osu-rewb.git&quot;,
+    &quot;accountId&quot;: &quot;3ea90cfd-402e-453c-a104-d711cb241352&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000000000001" />
+      <entry key="MS500" value="1.0010040174088437" />
+      <entry key="S2" value="1.178006274449634" />
+      <entry key="S5" value="1.5013882182550398" />
+      <entry key="S10" value="1.7081279376143885" />
+      <entry key="S30" value="2.0362935036625887" />
+      <entry key="S60" value="3.1338421024382375" />
+      <entry key="M2" value="5.410690446565802" />
+      <entry key="M5" value="8.508866919516482" />
+      <entry key="M10" value="10.068158020337478" />
+      <entry key="M15" value="10.666670699823381" />
+      <entry key="M30" value="11.309514359819497" />
+      <entry key="H1" value="11.648585498027247" />
+      <entry key="H2" value="11.822721909613868" />
+      <entry key="H4" value="11.910964699566241" />
+      <entry key="D1" value="11.98510544427273" />
+      <entry key="W1" value="11.997870847108276" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.1696609837939739E-110" />
+      <entry key="S2" value="3.288629898588294E-28" />
+      <entry key="S5" value="1.0157948352319458E-11" />
+      <entry key="S10" value="3.1871536442913223E-6" />
+      <entry key="S30" value="0.014716380223286113" />
+      <entry key="S60" value="0.12131108862460233" />
+      <entry key="M2" value="0.34829741403662806" />
+      <entry key="M5" value="0.6558131188232619" />
+      <entry key="M10" value="0.8098228934916955" />
+      <entry key="M15" value="0.8688137789705177" />
+      <entry key="M30" value="0.9321018071919599" />
+      <entry key="H1" value="0.9654541973558144" />
+      <entry key="H2" value="0.9825752883905712" />
+      <entry key="H4" value="0.9912493573216433" />
+      <entry key="D1" value="0.9985362133182253" />
+      <entry key="W1" value="0.9997907563139257" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4924808077297174E-4" />
+      <entry key="MS500" value="0.17213078288531108" />
+      <entry key="S2" value="0.7874045365475958" />
+      <entry key="S5" value="1.2986733506664656" />
+      <entry key="S10" value="1.5941088548096012" />
+      <entry key="S30" value="2.007428448189211" />
+      <entry key="S60" value="3.2247338501983163" />
+      <entry key="M2" value="5.734392155013599" />
+      <entry key="M5" value="9.149579003005478" />
+      <entry key="M10" value="10.869086732538467" />
+      <entry key="M15" value="11.529209474025032" />
+      <entry key="M30" value="12.238292620770377" />
+      <entry key="H1" value="12.612328764864353" />
+      <entry key="H2" value="12.804429097990038" />
+      <entry key="H4" value="12.901776804071377" />
+      <entry key="D1" value="12.98356833349739" />
+      <entry key="W1" value="12.99765111751526" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3KKQoKQYgiUKg9d4BKl6JH7IxzW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "cv2-6.10.2026",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.general"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PS-262.10968.76" />
+        <option value="bundled-php-predefined-a98d8de5180a-9522f28f0b20-com.jetbrains.php.sharedIndexes-PS-262.10968.76" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00a0c866-8d70-48f4-8ebe-dfec24a5c64b" name="Changes" comment="" />
+      <created>1791303954333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791303954333</updated>
+      <workItem from="1791303955865" duration="532000" />
+      <workItem from="1791304581155" duration="319000" />
+      <workItem from="1791304913141" duration="178000" />
+      <workItem from="1791793152445" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
