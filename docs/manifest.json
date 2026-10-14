@@ -1,0 +1,88 @@
+{
+  "exportDate": "2026-10-12",
+  "timezone": "Europe/Prague",
+  "source": "https://moodle.osu.cz/course/view.php?id=12050",
+  "files": [
+    {
+      "title": "Example website using framework Foundation",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802280",
+      "file": "foundation.zip",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115477/mod_resource/content/1/foundation.zip?forcedownload=1",
+      "path": "materialy/foundation.zip",
+      "size": 678009,
+      "sha256": "7577c8d760029936dd897ecf381d2a2e68e7e746aae2a54ddc18c14779dfdbc2"
+    },
+    {
+      "title": "Example website using framework Tailwind CSS",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802281&forceview=1",
+      "file": "tailwind.zip",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115478/mod_resource/content/1/tailwind.zip?forcedownload=1",
+      "path": "materialy/tailwind.zip",
+      "size": 10115,
+      "sha256": "b661af9a97225e7806a73d6bf9fe0e553d1c99324acec94bcd2d9bd91a7b6a0d"
+    },
+    {
+      "file": "responsive-web-pages-introduction.ppt",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115480/mod_resource/content/2/responsive-web-pages-introduction.ppt?forcedownload=1",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802283&forceview=1",
+      "title": "PPT presentation",
+      "path": "materialy/responsive-web-pages-introduction.ppt",
+      "size": 3992064,
+      "sha256": "d43d728c835fecdc11baa385389e0d1dc2e44cfad6d0b1eb80cc6aa21240d922"
+    },
+    {
+      "file": "structure-of-responsive-webpages.ppt",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115481/mod_resource/content/3/structure-of-responsive-webpages.ppt?forcedownload=1",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802284&forceview=1",
+      "title": "PPT presentation",
+      "path": "materialy/structure-of-responsive-webpages.ppt",
+      "size": 5548544,
+      "sha256": "a40e96e16fa572ef9d5be61625790ff30d539db292d0f40e81ef5faa47dd3b6d"
+    },
+    {
+      "file": "current-frameworks-for-responsive-web.ppt",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115482/mod_resource/content/2/current-frameworks-for-responsive-web.ppt?forcedownload=1",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802285&forceview=1",
+      "title": "PPT presentation",
+      "path": "materialy/current-frameworks-for-responsive-web.ppt",
+      "size": 9118720,
+      "sha256": "8057e25091ab3af7377d473a59c5ce8ac1e30eb68caea89ac636d96ffea2ff6e"
+    },
+    {
+      "file": "flexbox-and-grid-system.ppt",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115483/mod_resource/content/2/flexbox-and-grid-system.ppt?forcedownload=1",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802286&forceview=1",
+      "title": "PPT presentation",
+      "path": "materialy/flexbox-and-grid-system.ppt",
+      "size": 1417216,
+      "sha256": "d987ce2b93612ef6846267550a2a97f3e2cd3dde04bffa83fb14ec9154b6d526"
+    },
+    {
+      "file": "practical-usage-of-the-bootstrap-framework-I.ppt",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115484/mod_resource/content/2/practical-usage-of-the-bootstrap-framework-I.ppt?forcedownload=1",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802287&forceview=1",
+      "title": "PPT presentation",
+      "path": "materialy/practical-usage-of-the-bootstrap-framework-I.ppt",
+      "size": 8783360,
+      "sha256": "0c6fe6b6622adbdf8b541daba96f3256ef218f42fa2b5494ad0707eb46693762"
+    },
+    {
+      "file": "practical-usage-of-the-bootstrap-framework-II.ppt",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115485/mod_resource/content/1/practical-usage-of-the-bootstrap-framework-II.ppt?forcedownload=1",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802288&forceview=1",
+      "title": "PPT presentation",
+      "path": "materialy/practical-usage-of-the-bootstrap-framework-II.ppt",
+      "size": 1622016,
+      "sha256": "f7d541aef5214694335f803bd9bd593825f9e077562bdfa5c90d2f4c585f5025"
+    },
+    {
+      "title": "Homework - modal",
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802295&forceview=1",
+      "file": "task-modal.pdf",
+      "url": "https://moodle.osu.cz/pluginfile.php/1115492/mod_resource/content/1/task-modal.pdf",
+      "path": "materialy/task-modal.pdf",
+      "size": 227375,
+      "sha256": "86c5b70a748fd226833a3016f8c44c3708a47f5e176f56099c71727dc479adcf"
+    }
+  ]
+}

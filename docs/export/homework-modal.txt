@@ -1,0 +1,17 @@
+Task Modal
+Create a new modal window on the main page of the Bootstrap website from the practice.
+First, create a new Modal Window button in Column 3:
+After clicking the Modal Window button, a modal window will open, which will contain:
+• PC view (large devices):
+o On the left - your name + picture (can remain original) - column size 50% size, on the - right your age,
+interests, subjects - column 50%
+• Mobile view (small devices):
+o Your name + picture (can remain original) - column size 100%, below that your age, interests,
+subjects - column size 100%
+PC view:
+
+Mobile view:
+
+
+
+Output will be presented at next practice.

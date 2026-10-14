@@ -1,0 +1,29 @@
+Create your own website that will represent your interests, hobbies, or your own creative or business activity. Use Bootstrap framework components to create a responsive website.
+
+Part of the semester project will be the creation of a wireframe of the homepage of the website when viewed on a mobile device (a typical smartphone). Briefly describe elements of the wireframe (website structure).
+
+Also, you need to upload the semester project to a hosting service of your choice (free hosting, your own hosting, GitHub Pages, etc.) and create a TXT file containing the project URL, which must be included in the submitted ZIP file.
+
+The website will contain the following components:
+
+logo, or an appropriately styled text name of the project at the top of the page
+5 - 7 menu items referring to individual functional pages with real content (text, possibly also visual)
+appropriate use and placement (preferably under the logo and menu, otherwise preferably at the top of the page) of the Carousel component with the display of several rotating images, possibly together with a text message displayed over these images - Docs - Components - Carousel
+breadcrumb navigation, e.g. Introduction - About us, etc.
+own comprehensive form - see below
+a table with at least 50 records created based on the DataTable component - https://datatables.net/examples/styling/bootstrap5.html (adapted for Bootstrap version 5) along with pagination, sorting and searching
+several links and buttons using different styles - section Docs - Components - Buttons, use of icons in menu items or buttons - Docs - Extend - Icons
+
+modal window with the display of detailed information of any type - Docs - Components - Modal
+
+at least 3 tabs with any content and displaying tab content on click - Docs - Components - Navs & tabs
+any other components or components that you use to create the website
+
+A comprehensive responsive form will include:
+
+the form will have a total of at least 10 form fields
+use a form field at least once in the form: text type input, radio type input, checkbox type input, selection of values ​​using the select element (values ​​in option elements), textarea
+Save button at the bottom of the form
+use the tips and layout of form fields available in the Forms and Forms - Input Group sections
+
+The resulting web page, TXT file with URL od project online, together with other necessary files zip into a ZIP file and submit

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Example website using framework Foundation",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802280",
+    "file": "foundation.zip",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115477/mod_resource/content/1/foundation.zip?forcedownload=1"
+  },
+  {
+    "title": "Example website using framework Tailwind CSS",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802281&forceview=1",
+    "file": "tailwind.zip",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115478/mod_resource/content/1/tailwind.zip?forcedownload=1"
+  },
+  {
+    "file": "responsive-web-pages-introduction.ppt",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115480/mod_resource/content/2/responsive-web-pages-introduction.ppt?forcedownload=1",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802283&forceview=1",
+    "title": "PPT presentation"
+  },
+  {
+    "file": "structure-of-responsive-webpages.ppt",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115481/mod_resource/content/3/structure-of-responsive-webpages.ppt?forcedownload=1",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802284&forceview=1",
+    "title": "PPT presentation"
+  },
+  {
+    "file": "current-frameworks-for-responsive-web.ppt",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115482/mod_resource/content/2/current-frameworks-for-responsive-web.ppt?forcedownload=1",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802285&forceview=1",
+    "title": "PPT presentation"
+  },
+  {
+    "file": "flexbox-and-grid-system.ppt",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115483/mod_resource/content/2/flexbox-and-grid-system.ppt?forcedownload=1",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802286&forceview=1",
+    "title": "PPT presentation"
+  },
+  {
+    "file": "practical-usage-of-the-bootstrap-framework-I.ppt",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115484/mod_resource/content/2/practical-usage-of-the-bootstrap-framework-I.ppt?forcedownload=1",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802287&forceview=1",
+    "title": "PPT presentation"
+  },
+  {
+    "file": "practical-usage-of-the-bootstrap-framework-II.ppt",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115485/mod_resource/content/1/practical-usage-of-the-bootstrap-framework-II.ppt?forcedownload=1",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802288&forceview=1",
+    "title": "PPT presentation"
+  },
+  {
+    "title": "Homework - modal",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802295&forceview=1",
+    "file": "task-modal.pdf",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115492/mod_resource/content/1/task-modal.pdf"
+  }
+]
