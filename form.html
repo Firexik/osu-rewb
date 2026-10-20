@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">First</a>
+            <a class="nav-link active" aria-current="page" href="./form.html">Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Second</a>
+            <a class="nav-link" href="./table.html">Table</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled">Third</a>
@@ -101,6 +101,35 @@
                 <option value="JM">Jihomoravský</option>
               </select>
             </div>
+
+            <div class="col mb-3">
+              <label for="hobby" class="form-label">Hobby</label>
+              <div class="form-check" id="hobby">
+                  <input type="checkbox" class="form-check-input" name="hobby" value="mountains" id="mountains">
+                  <label class="form-check-label" for="mountains">mountains</label>
+              </div>
+              <div class="form-check">
+                  <input type="checkbox" class="form-check-input" name="hobby" value="movies" id="movies">
+                  <label class="form-check-label" for="movies">movies</label>
+              </div>
+              <div class="form-check">
+                  <input type="checkbox" class="form-check-input" name="hobby" value="shopping" id="shopping">
+                  <label class="form-check-label" for="shopping">shopping</label>
+              </div>
+            </div>
+
+            <div class="col mb-3">
+              <label for="sex" class="form-label">Sex</label>
+              <div class="form-check" id="sex">
+                <input class="form-check-input" type="radio" name="sex" value="male" id="male">
+                <label class="form-check-label" for="male">Male</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="sex" value="female" id="female">
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+            </div>
+
             <div class="col mb-3">
               <label for="range" class="form-label">Range</label>
               <input type="range" class="form-range" name="range" min="0" max="10">
@@ -113,6 +142,12 @@
               <label for="email" class="form-label">Email</label>
               <input type="email" class="form-control" name="email" value="" required>
             </div>
+
+            <div class="col mb-3">
+              <label for="note" class="form-label">Note</label>
+              <textarea class="form-control" id="note" rows="3"></textarea>
+            </div>
+
             <div class="col mb-3">
               <button class="btn btn-primary" type="submit">Send</button>
             </div>
