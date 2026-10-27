@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
   <head>
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
   <body>
   
   <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Logo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">First</a>
+            <a class="nav-link" aria-current="page" href="./form.html">Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Second</a>
+            <a class="nav-link" href="./table.html">Table</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled">Third</a>
@@ -65,30 +65,38 @@
         </div>
         <div class="col">
           <h2>Column 2</h2>
-          <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Modal
           </button>
         </div>
         <div class="col">
           <h2>Column 3</h2>
-          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#profileModal">
-            Modal Window
-          </button>
+          <button type="button" class="btn btn-warning">Read more</button>
         </div>
       </div>
     </div>
 
-    <!-- Modal -->
+
+  </main>
+
+  <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-fullscreen-md-down">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Title</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dolor arcu, congue nec molestie ac, pulvinar at quam. Pellentesque quis tortor a eros semper sagittis a eu elit. Cras semper magna non est mollis convallis. Vivamus tempus eget nisl vel ornare. Donec vehicula, massa ac tincidunt vestibulum, orci tortor dictum leo, ac lacinia est sapien a massa. Quisque ultrices sem ac ex venenatis, at sodales sapien congue. Nunc at mauris rhoncus, cursus nibh sit amet, blandit quam.
+          <h3>Title</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since 1966, when
+          designers at Letraset and James Mosley, the librarian at St Bride Printing Library
+          in London, took a 1914 Cicero translation and scrambled it to make dummy text for
+          Letraset's Body Type sheets. It has survived not only many decades, but also the
+          leap into electronic typesetting, remaining essentially unchanged. It was popularised
+          thanks to these sheets and more recently with desktop publishing software like Aldus
+          PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -97,36 +105,6 @@
       </div>
     </div>
   </div>
-
-    <!-- Profile: stacked on small screens, two equal columns from the md breakpoint. -->
-    <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h2 class="modal-title fs-5" id="profileModalLabel">Personal profile</h2>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row g-4">
-              <div class="col-12 col-md-6">
-                <h3 class="fs-4">Jakub Kovalčík</h3>
-                <img src="./user.png" class="img-fluid" width="2400" height="2305" alt="Profile illustration">
-              </div>
-              <div class="col-12 col-md-6">
-                <p class="mb-2"><strong>Age:</strong> 21</p>
-                <p class="mb-2"><strong>Interests:</strong> programming, video games, books</p>
-                <p class="mb-0"><strong>Courses:</strong> ALG2, GALP, PRCC, PRCS, REWB, TETL, VYDA, UVDT</p>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </main>
        
    
       
@@ -139,4 +117,5 @@
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script> 
 
 </body>
-</html>
+</html>            
+    
