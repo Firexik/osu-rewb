@@ -1,3 +1,38 @@
+body{
+    font-family: 'Oswald', Arial, sans-serif;
+}
 footer {
     background-color:#ccc;
+}
+p.decoration {
+    text-align: justify;
+}
+.btn.next{
+    padding: 10px 20px 10px 20px;
+    font-size: 1.2em;
+}
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+    .main_actuality{
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        border-bottom: 1px solid #aaa;
+    }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .main_actuality{
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        border-bottom: 5px solid #aaa;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .main_actuality{
+        text-size: 1.3em;
+    }
 }

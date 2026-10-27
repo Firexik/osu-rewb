@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>First Bootstrap website</title>
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./form.html">Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./table.html">Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Third</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Fourth</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="mb-4 mt-5 pt-5 pb-3 bg-light">
+        <div class="container">
+            <h1 class="fw-bold">Caption</h1>
+            <p class="col-md-12 fs-4">
+                text text text text text text text text text text text text
+                text text text text text text text text text text text text
+                text text text text text text text text text text text text
+                text text text text text text text text text text text text
+                text text text text text text text text text text text text
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center actuality my-3">News</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+            <div class="col main_actuality">
+                <a href="./article.html"><img class="img-fluid" src="./photos/1.jpg" alt="Pražské jaro"></a>
+                <h3 class="text-center mt-3"><a href="./article.html">Pražské jaro</a></h3>
+                <p class="text-center date"><strong>1.11.2026</strong></p>
+                <p class="description">Pražské jaro je mezinárodní festival klasické hudby, který se každoročně koná v Praze, zpravidla od 12. května do začátku června. Vznikl roku 1946 při oslavách 50. výročí České filharmonie z iniciativy jejího tehdejšího šéfdirigenta Rafaela Kubelíka. Tradičním zahajovacím programem je cyklus symfonických básní Má vlast Bedřicha Smetany, uváděný 12. května, v den výročí skladatelova úmrtí.</p>
+                <p class="text-center"><a class="btn btn-success" href="article.html">Read more</a></p>
+            </div>
+            <div class="col main_actuality">
+                <a href="./article.html"><img class="img-fluid" src="./photos/2.jpg" alt="Vltava"></a>
+                <h3 class="text-center mt-3"><a href="./article.html">Vltava</a></h3>
+                <p class="text-center date"><strong>2.11.2026</strong></p>
+                <p class="description">Vltava (německy Moldau) je s délkou 430,2 km[1] nejdelší řekou na území Česka. Pramení na Šumavě, u obce Černý Kříž, soutokem Teplé Vltavy a Studené Vltavy. Protéká mimo jiné Českým Krumlovem, Českými Budějovicemi a Prahou a ústí zleva do Labe v Mělníku. Povodí Vltavy s přítoky Malší, Lužnicí, Otavou, Sázavou a Berounkou zaujímá jižní část Čech a spolu s Labem, jehož přítokem</p>
+                <p class="text-center"><a class="btn btn-success" href="article.html">Read more</a></p>
+            </div>
+            <div class="col main_actuality">
+                <a href="./article.html"><img class="img-fluid" src="./photos/1.jpg" alt="Pražské jaro"></a>
+                <h3 class="text-center mt-3"><a href="./article.html">Pražské jaro</a></h3>
+                <p class="text-center date"><strong>1.11.2026</strong></p>
+                <p class="description">Pražské jaro je mezinárodní festival klasické hudby, který se každoročně koná v Praze, zpravidla od 12. května do začátku června. Vznikl roku 1946 při oslavách 50. výročí České filharmonie z iniciativy jejího tehdejšího šéfdirigenta Rafaela Kubelíka. Tradičním zahajovacím programem je cyklus symfonických básní Má vlast Bedřicha Smetany, uváděný 12. května, v den výročí skladatelova úmrtí.</p>
+                <p class="text-center"><a class="btn btn-success" href="article.html">Read more</a></p>
+            </div>
+            <div class="col main_actuality">
+                <a href="./article.html"><img class="img-fluid" src="./photos/2.jpg" alt="Vltava"></a>
+                <h3 class="text-center mt-3"><a href="./article.html">Vltava</a></h3>
+                <p class="text-center date"><strong>2.11.2026</strong></p>
+                <p class="description">Vltava (německy Moldau) je s délkou 430,2 km[1] nejdelší řekou na území Česka. Pramení na Šumavě, u obce Černý Kříž, soutokem Teplé Vltavy a Studené Vltavy. Protéká mimo jiné Českým Krumlovem, Českými Budějovicemi a Prahou a ústí zleva do Labe v Mělníku. Povodí Vltavy s přítoky Malší, Lužnicí, Otavou, Sázavou a Berounkou zaujímá jižní část Čech a spolu s Labem, jehož přítokem</p>
+                <p class="text-center"><a class="btn btn-success" href="article.html">Read more</a></p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <p class="text-center"><a class="btn btn-primary btn-next" href="#">MORE ARTICLES</a></p>
+        </div>
+    </div>
+
+
+</main>
+
+
+
+
+<footer class="mt-5 pt-3 pb-2">
+    <p class="text-center">&copy; Bootstrap website 2026</p>
+</footer>
+
+
+
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
