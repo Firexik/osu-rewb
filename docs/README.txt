@@ -107,3 +107,16 @@ main obsahuje pouze docs se studijními podklady. Původní aplikační soubory
 byly odstraněny z této větve běžným commitem; historie zůstává zachovaná.
 Existující master a cv2-6.10.2026 nebyly změněny. Větve cv a ukol v době
 exportu neexistovaly a nebyly vytvořeny.
+
+DOPLNĚNÍ ZE DNE 28. 10. 2026 – ÚKOL 3
+Původní příloha z chatu: materialy/task-detail-article.pdf. Datum získání,
+původ a kontrolní součet jsou v části supplements souboru manifest.json.
+Řešení je v detail.html; otevřít přímo v prohlížeči nebo přes menu Články
+v index.html a tlačítko Read more u Vltavy v articles.html.
+Rozložení, obrázky a menu navazují na Bootstrap a podklady ve složce docs.
+Pět řádků náhledu nastavuje style.css; místní Bootstrap Collapse rozbaluje
+hlavní text i tři vedlejší články. Není potřeba instalace ani sestavení.
+Ověřeno v prohlížeči při šířkách 320, 375, 768 a 1440 px: náhled pěti
+řádků, rozbalení a sbalení všech článků, poměr sloupců 8:4, mobilní menu
+a odkazy z úvodní stránky i seznamu článků. Místní soubory se načítají
+bez chyb; stránka funguje i bez stažení externího písma.

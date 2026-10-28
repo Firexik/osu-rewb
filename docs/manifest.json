@@ -84,5 +84,16 @@
       "size": 227375,
       "sha256": "86c5b70a748fd226833a3016f8c44c3708a47f5e176f56099c71727dc479adcf"
     }
+  ],
+  "supplements": [
+    {
+      "title": "Homework - article detail",
+      "file": "task-detail-article.pdf",
+      "path": "materialy/task-detail-article.pdf",
+      "source": "Příloha poskytnutá uživatelem v chatu",
+      "acquiredDate": "2026-10-28",
+      "size": 151155,
+      "sha256": "bbbbac47505980d00dfbb675e8f2668629663ebcfdcf8875892c08ec109a053a"
+    }
   ]
 }

@@ -12,6 +12,26 @@ p.decoration {
     font-size: 1.2em;
 }
 
+/* Pět řádků náhledu; Bootstrap Collapse rozbalí celý text. */
+.article-text {
+    line-height: 1.5;
+}
+.article-text.collapse:not(.show) {
+    display: block;
+    height: 7.5em;
+    overflow: hidden;
+}
+.article-text.collapsing {
+    min-height: 7.5em;
+}
+.article-toggle[aria-expanded="false"] .read-less,
+.article-toggle[aria-expanded="true"] .read-more {
+    display: none;
+}
+article[id] {
+    scroll-margin-top: 5rem;
+}
+
 /* Extra small devices */
 @media (max-width: 575.98px) {
     .main_actuality{
