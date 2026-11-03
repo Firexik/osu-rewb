@@ -120,3 +120,9 @@ Ověřeno v prohlížeči při šířkách 320, 375, 768 a 1440 px: náhled pět
 řádků, rozbalení a sbalení všech článků, poměr sloupců 8:4, mobilní menu
 a odkazy z úvodní stránky i seznamu článků. Místní soubory se načítají
 bez chyb; stránka funguje i bez stažení externího písma.
+
+ZDROJ TEXTU ČLÁNKU (záznam přesunut ze stránky dne 3. 11. 2026)
+Wikipedie – Vltava: https://cs.wikipedia.org/wiki/Vltava
+Autoři: https://cs.wikipedia.org/w/index.php?title=Vltava&action=history
+Licence CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/deed.cs
+Převzatý souvislý text bez tabulek, seznamů a poznámek.
