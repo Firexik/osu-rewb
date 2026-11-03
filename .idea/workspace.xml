@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0c866-8d70-48f4-8ebe-dfec24a5c64b" name="Changes" comment="">
+    <list default="true" id="00a0c866-8d70-48f4-8ebe-dfec24a5c64b" name="Changes" comment="chore: update UI button structure and IntelliJ IDEA configuration">
+      <change afterPath="$PROJECT_DIR$/articles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,8 +172,6 @@
       <workItem from="1792510815504" duration="3476000" />
       <workItem from="1793120278929" duration="2255000" />
       <workItem from="1793122647257" duration="279000" />
-      <workItem from="1793183326794" duration="689000" />
-      <workItem from="1793711018185" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary="chore: add IntelliJ IDEA project configuration files to version control">
       <option name="closed" value="true" />
