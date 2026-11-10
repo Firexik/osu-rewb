@@ -1,0 +1,8 @@
+/vendor/
+/temp/
+/log/
+/dist/
+/submission/
+/.idea/
+/.DS_Store
+*.zip

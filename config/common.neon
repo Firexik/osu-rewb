@@ -1,0 +1,12 @@
+application:
+    mapping: App\Presentation\*\**Presenter
+
+session:
+    savePath: %tempDir%/sessions
+    expiration: 7 days
+    name: playlog
+    cookieSamesite: Lax
+
+services:
+    router: App\Core\RouterFactory::createRouter
+    - App\Model\GameCatalog

@@ -1,0 +1,23 @@
+PLAYLOG – HOMEPAGE WIREFRAME
+Figma: https://www.figma.com/design/aaaKaCVb3XdVRnkH6chlAk
+Local export: wireframe-mobile.png (390 px wide)
+
+1. Header: styled Playlog name and a collapsible navigation menu. Six links
+   lead to Home, Games, Reviews, Genres, Play Planner and About.
+2. Breadcrumb: identifies the current page. Inner pages link back to Home.
+3. Carousel: three gameplay images with captions, previous/next controls,
+   slide indicators and a pause button. Captions remain visible on mobile.
+4. Introduction: a short welcome and a button opening the 60-game library.
+5. Game cards: three cards in one column on phones, three columns on wider
+   screens. The Quick look button opens a Bootstrap modal with game details.
+6. Planner call to action: a link to the responsive, 13-field Play Planner.
+7. Footer: the project name and a link to information and image sources.
+
+The design uses Bootstrap's mobile-first grid, a dark colour scheme,
+system fonts and one purple accent. Images resize within their containers.
+The catalogue uses horizontal scrolling inside the table on small screens;
+the rest of each page fits the viewport. Forms use one column on a phone
+and two on medium and larger screens. The Genres page contains three tabs.
+
+The Figma file includes both mobile and desktop wireframes and an annotated
+description. The ZIP includes the mobile export needed by the assignment.

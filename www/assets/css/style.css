@@ -1,0 +1,34 @@
+:root { --bs-primary: #9b8afb; --bs-primary-rgb: 155,138,251; }
+body { background: #15171b; }
+.navbar-brand { letter-spacing: -.03em; }
+.nav-link.active { color: #c3b8ff !important; }
+.nav-icon { opacity: .65; }
+.btn-primary { --bs-btn-bg: #7962dc; --bs-btn-border-color: #7962dc; --bs-btn-hover-bg: #6751c3; --bs-btn-hover-border-color: #6751c3; }
+.btn-outline-primary { --bs-btn-color: #c3b8ff; --bs-btn-border-color: #7664b8; --bs-btn-hover-bg: #7962dc; --bs-btn-hover-border-color: #7962dc; }
+.text-primary { color: #c3b8ff !important; }
+a:not(.btn):not(.nav-link):not(.navbar-brand) { color: #c3b8ff; }
+.card { background: #1e2026; border-color: #353841; }
+.hero-image { height: 430px; object-fit: cover; }
+.carousel-item::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg,rgba(0,0,0,.8),rgba(0,0,0,.1)), linear-gradient(0deg,rgba(0,0,0,.55),transparent); }
+.carousel-caption { z-index: 1; left: 8%; right: 12%; bottom: 3rem; max-width: 620px; }
+.carousel-caption h1, .carousel-caption .h1 { font-size: clamp(1.75rem,4vw,3rem); font-weight: 700; }
+.carousel-caption p { max-width: 34rem; }
+.carousel-control-prev, .carousel-control-next { z-index: 2; width: 6%; }
+.carousel-pause { position: absolute; right: 1rem; top: 1rem; z-index: 3; }
+.game-image { aspect-ratio: 16 / 9; height: auto; object-fit: cover; }
+.badge { font-weight: 500; }
+th { white-space: nowrap; }
+#gamesTable { min-width: 740px; }
+#gamesTable td:first-child { min-width: 180px; }
+.tab-pane { min-height: 220px; }
+.form-label, legend { font-weight: 500; }
+.skip-link { position: absolute; z-index: 10; padding: 1rem; background: #15171b; }
+[id] { scroll-margin-top: 1.5rem; }
+@media (max-width: 575.98px) {
+    .hero-image { height: 390px; }
+    .carousel-caption { left: 12%; right: 12%; bottom: 2.5rem; }
+    .carousel-caption p { font-size: .95rem; }
+    .nav-tabs .nav-link { padding: .6rem .65rem; font-size: .85rem; }
+    .tab-pane { min-height: 340px; }
+}
+@media (prefers-reduced-motion: reduce) { .carousel-item { transition: none; } }

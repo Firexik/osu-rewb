@@ -1,0 +1,24 @@
+{block head}
+<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.css">
+{/block}
+{block content}
+<h1>Games</h1><p class="text-body-secondary mb-4">60 games, from small indie adventures to sprawling RPGs. Search by title or developer, or sort any column.</p>
+<div class="card"><div class="card-body">
+    <div class="table-responsive">
+        <table id="gamesTable" class="table table-striped table-hover align-middle w-100">
+            <caption class="small">Game information from Steam. Years refer to the Steam release of the listed edition. Genres are broad Playlog categories.</caption>
+            <thead><tr><th scope="col">Game</th><th scope="col">Developer</th><th scope="col">Genre</th><th scope="col">Year</th><th scope="col">Play style</th><th scope="col" data-orderable="false">Link</th></tr></thead>
+            <tbody>
+                <tr n:foreach="$games as $game"><td class="fw-semibold">{$game['title']}</td><td>{$game['developer']}</td><td><span class="badge text-bg-secondary">{$game['genre']}</span></td><td>{$game['year']}</td><td>{$game['mode']}</td><td><a href="{$game['source']}" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" aria-label="View {$game['title']} on Steam">Steam <span aria-hidden="true">↗</span></a></td></tr>
+            </tbody>
+        </table>
+    </div>
+</div></div>
+<p class="small text-body-secondary mt-3">Looking for a shorter list? Start with the <a n:href="reviews">three game notes</a> or explore the <a n:href="genres">genre guide</a>.</p>
+{/block}
+{block scripts}
+<script src="assets/js/jquery-3.7.1.js"></script>
+<script src="assets/js/dataTables.js"></script>
+<script src="assets/js/dataTables.bootstrap5.js"></script>
+<script>new DataTable('#gamesTable', { pageLength: 10, lengthMenu: [10, 25, 50, 60], order: [[0, 'asc']] });</script>
+{/block}

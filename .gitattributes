@@ -1,0 +1,8 @@
+* text=auto
+*.php text eol=lf
+*.latte text eol=lf
+*.json text eol=lf
+*.neon text eol=lf
+*.yml text eol=lf
+*.js text eol=lf
+*.css text eol=lf

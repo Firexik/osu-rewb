@@ -1,0 +1,620 @@
+[
+  {
+    "id": 620,
+    "title": "Portal 2",
+    "developer": "Valve",
+    "genre": "Puzzle",
+    "released": "Apr 18, 2011",
+    "year": 2011,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/620/",
+    "image": "portal-2.jpg",
+    "headline": "Think outside the portal.",
+    "intro": "A puzzle, a portal gun, and a very unreliable guide.",
+    "summary": "Connect two distant points with a pair of portals and work out how to reach the exit. Portal 2 builds its puzzles around momentum, timing and a wonderfully strange testing facility.",
+    "note": "A good pick when you want a puzzle with a clear goal. The separate co-op campaign gives two players a different set of problems to solve together.",
+    "imageSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/ss_f3f6787d74739d3b2ec8a484b5c994b3d31ef325.1920x1080.jpg?t=1790187113"
+  },
+  {
+    "id": 400,
+    "title": "Portal",
+    "developer": "Valve",
+    "genre": "Puzzle",
+    "released": "Oct 10, 2007",
+    "year": 2007,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/400/"
+  },
+  {
+    "id": 220,
+    "title": "Half-Life 2",
+    "developer": "Valve",
+    "genre": "Action",
+    "released": "Nov 16, 2004",
+    "year": 2004,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/220/"
+  },
+  {
+    "id": 70,
+    "title": "Half-Life",
+    "developer": "Valve",
+    "genre": "Action",
+    "released": "Nov 19, 1998",
+    "year": 1998,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/70/"
+  },
+  {
+    "id": 550,
+    "title": "Left 4 Dead 2",
+    "developer": "Valve",
+    "genre": "Action",
+    "released": "Nov 16, 2009",
+    "year": 2009,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/550/"
+  },
+  {
+    "id": 105600,
+    "title": "Terraria",
+    "developer": "Re-Logic",
+    "genre": "Sandbox",
+    "released": "May 16, 2011",
+    "year": 2011,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/105600/"
+  },
+  {
+    "id": 413150,
+    "title": "Stardew Valley",
+    "developer": "ConcernedApe",
+    "genre": "Simulation",
+    "released": "Feb 26, 2016",
+    "year": 2016,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/413150/",
+    "image": "stardew-valley.jpg",
+    "headline": "Take the slow route.",
+    "intro": "Plant something. Explore a little. Leave the rush behind.",
+    "summary": "Restore a neglected farm, meet the residents of Pelican Town and decide how to spend each day. Farming, fishing, mining and crafting all compete for your attention.",
+    "note": "The open-ended structure is the main attraction. Pick a small goal for a session, whether that means planting a crop or exploring another floor of the mine.",
+    "imageSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168"
+  },
+  {
+    "id": 1145360,
+    "title": "Hades",
+    "developer": "Supergiant Games",
+    "genre": "Action",
+    "released": "Sep 17, 2020",
+    "year": 2020,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/1145360/",
+    "image": "hades.jpg",
+    "headline": "One more run.",
+    "intro": "Fast fights and another attempt to leave the Underworld.",
+    "summary": "As Zagreus, you attempt to escape the Underworld. Each run combines a weapon with different gifts from the Olympian gods, so the next attempt rarely plays exactly like the last.",
+    "note": "A compact run can fit into a short evening. The conversations between attempts make failure feel like another part of the story rather than a complete reset.",
+    "imageSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023"
+  },
+  {
+    "id": 367520,
+    "title": "Hollow Knight",
+    "developer": "Team Cherry",
+    "genre": "Adventure",
+    "released": "Feb 24, 2017",
+    "year": 2017,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/367520/"
+  },
+  {
+    "id": 588650,
+    "title": "Dead Cells",
+    "developer": "Motion Twin",
+    "genre": "Action",
+    "released": "Aug 6, 2018",
+    "year": 2018,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/588650/"
+  },
+  {
+    "id": 504230,
+    "title": "Celeste",
+    "developer": "Maddy Makes Games Inc., Extremely OK Games, Ltd.",
+    "genre": "Platformer",
+    "released": "Jan 25, 2018",
+    "year": 2018,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/504230/"
+  },
+  {
+    "id": 646570,
+    "title": "Slay the Spire",
+    "developer": "Mega Crit",
+    "genre": "Strategy",
+    "released": "Jan 23, 2019",
+    "year": 2019,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/646570/"
+  },
+  {
+    "id": 1086940,
+    "title": "Baldur's Gate 3",
+    "developer": "Larian Studios",
+    "genre": "RPG",
+    "released": "Aug 3, 2023",
+    "year": 2023,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/1086940/"
+  },
+  {
+    "id": 292030,
+    "title": "The Witcher 3: Wild Hunt — Remastered",
+    "developer": "CD PROJEKT RED",
+    "genre": "RPG",
+    "released": "May 18, 2015",
+    "year": 2015,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/292030/"
+  },
+  {
+    "id": 1091500,
+    "title": "Cyberpunk 2077",
+    "developer": "CD PROJEKT RED",
+    "genre": "RPG",
+    "released": "Dec 9, 2020",
+    "year": 2020,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/1091500/"
+  },
+  {
+    "id": 1245620,
+    "title": "ELDEN RING",
+    "developer": "FromSoftware, Inc.",
+    "genre": "RPG",
+    "released": "Feb 24, 2022",
+    "year": 2022,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/1245620/"
+  },
+  {
+    "id": 374320,
+    "title": "DARK SOULS™ III",
+    "developer": "FromSoftware, Inc.",
+    "genre": "RPG",
+    "released": "Apr 11, 2016",
+    "year": 2016,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/374320/"
+  },
+  {
+    "id": 814380,
+    "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "developer": "FromSoftware, Inc.",
+    "genre": "Action",
+    "released": "Mar 21, 2019",
+    "year": 2019,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/814380/"
+  },
+  {
+    "id": 1174180,
+    "title": "Red Dead Redemption 2",
+    "developer": "Rockstar Games",
+    "genre": "Adventure",
+    "released": "Dec 5, 2019",
+    "year": 2019,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/1174180/"
+  },
+  {
+    "id": 782330,
+    "title": "DOOM Eternal",
+    "developer": "id Software",
+    "genre": "Action",
+    "released": "Mar 19, 2020",
+    "year": 2020,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/782330/"
+  },
+  {
+    "id": 1237970,
+    "title": "Titanfall® 2",
+    "developer": "Respawn Entertainment",
+    "genre": "Action",
+    "released": "Jun 18, 2020",
+    "year": 2020,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/1237970/"
+  },
+  {
+    "id": 548430,
+    "title": "Deep Rock Galactic",
+    "developer": "Ghost Ship Games",
+    "genre": "Action",
+    "released": "May 13, 2020",
+    "year": 2020,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/548430/"
+  },
+  {
+    "id": 322330,
+    "title": "Don't Starve Together",
+    "developer": "Klei Entertainment",
+    "genre": "Survival",
+    "released": "Apr 21, 2016",
+    "year": 2016,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/322330/"
+  },
+  {
+    "id": 242760,
+    "title": "The Forest",
+    "developer": "Endnight Games Ltd",
+    "genre": "Survival",
+    "released": "Apr 30, 2018",
+    "year": 2018,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/242760/"
+  },
+  {
+    "id": 264710,
+    "title": "Subnautica",
+    "developer": "Unknown Worlds Entertainment",
+    "genre": "Survival",
+    "released": "Jan 23, 2018",
+    "year": 2018,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/264710/"
+  },
+  {
+    "id": 275850,
+    "title": "No Man's Sky",
+    "developer": "Hello Games",
+    "genre": "Sandbox",
+    "released": "Aug 12, 2016",
+    "year": 2016,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/275850/"
+  },
+  {
+    "id": 892970,
+    "title": "Valheim",
+    "developer": "Iron Gate AB",
+    "genre": "Survival",
+    "released": "Sep 9, 2026",
+    "year": 2026,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/892970/"
+  },
+  {
+    "id": 648800,
+    "title": "Raft",
+    "developer": "Redbeet Interactive",
+    "genre": "Survival",
+    "released": "Jun 20, 2022",
+    "year": 2022,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/648800/"
+  },
+  {
+    "id": 526870,
+    "title": "Satisfactory",
+    "developer": "Coffee Stain Studios",
+    "genre": "Simulation",
+    "released": "Sep 10, 2024",
+    "year": 2024,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/526870/"
+  },
+  {
+    "id": 427520,
+    "title": "Factorio",
+    "developer": "Wube Software LTD.",
+    "genre": "Simulation",
+    "released": "Aug 14, 2020",
+    "year": 2020,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/427520/"
+  },
+  {
+    "id": 294100,
+    "title": "RimWorld",
+    "developer": "Ludeon Studios",
+    "genre": "Simulation",
+    "released": "Oct 17, 2018",
+    "year": 2018,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/294100/"
+  },
+  {
+    "id": 255710,
+    "title": "Cities: Skylines",
+    "developer": "Colossal Order",
+    "genre": "Simulation",
+    "released": "Mar 10, 2015",
+    "year": 2015,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/255710/"
+  },
+  {
+    "id": 227300,
+    "title": "Euro Truck Simulator 2",
+    "developer": "SCS Software",
+    "genre": "Simulation",
+    "released": "Oct 12, 2012",
+    "year": 2012,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/227300/"
+  },
+  {
+    "id": 281990,
+    "title": "Stellaris",
+    "developer": "Paradox Development Studio",
+    "genre": "Strategy",
+    "released": "May 9, 2016",
+    "year": 2016,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/281990/"
+  },
+  {
+    "id": 289070,
+    "title": "Sid Meier’s Civilization® VI",
+    "developer": "Firaxis Games, Aspyr (Mac), Aspyr (Linux)",
+    "genre": "Strategy",
+    "released": "Oct 20, 2016",
+    "year": 2016,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/289070/"
+  },
+  {
+    "id": 813780,
+    "title": "Age of Empires II: Definitive Edition",
+    "developer": "World's Edge, Forgotten Empires, CaptureAge, Tantalus Media, Wicked Witch, Feral Interactive",
+    "genre": "Strategy",
+    "released": "Nov 14, 2019",
+    "year": 2019,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/813780/"
+  },
+  {
+    "id": 268500,
+    "title": "XCOM® 2",
+    "developer": "Firaxis Games, Feral Interactive (Mac), Feral Interactive (Linux)",
+    "genre": "Strategy",
+    "released": "Feb 4, 2016",
+    "year": 2016,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/268500/"
+  },
+  {
+    "id": 212680,
+    "title": "FTL: Faster Than Light",
+    "developer": "Subset Games",
+    "genre": "Strategy",
+    "released": "Sep 14, 2012",
+    "year": 2012,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/212680/"
+  },
+  {
+    "id": 590380,
+    "title": "Into the Breach",
+    "developer": "Subset Games",
+    "genre": "Strategy",
+    "released": "Feb 27, 2018",
+    "year": 2018,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/590380/"
+  },
+  {
+    "id": 632470,
+    "title": "Disco Elysium - The Final Cut",
+    "developer": "ZA/UM",
+    "genre": "RPG",
+    "released": "Oct 15, 2019",
+    "year": 2019,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/632470/"
+  },
+  {
+    "id": 435150,
+    "title": "Divinity: Original Sin 2 - Definitive Edition",
+    "developer": "Larian Studios",
+    "genre": "RPG",
+    "released": "Sep 14, 2017",
+    "year": 2017,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/435150/"
+  },
+  {
+    "id": 22380,
+    "title": "Fallout: New Vegas",
+    "developer": "Obsidian Entertainment",
+    "genre": "RPG",
+    "released": "Oct 19, 2010",
+    "year": 2010,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/22380/"
+  },
+  {
+    "id": 489830,
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "developer": "Bethesda Game Studios",
+    "genre": "RPG",
+    "released": "Oct 27, 2016",
+    "year": 2016,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/489830/"
+  },
+  {
+    "id": 1328670,
+    "title": "Mass Effect™ Legendary Edition",
+    "developer": "BioWare",
+    "genre": "RPG",
+    "released": "May 14, 2021",
+    "year": 2021,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/1328670/"
+  },
+  {
+    "id": 753640,
+    "title": "Outer Wilds",
+    "developer": "Mobius Digital",
+    "genre": "Adventure",
+    "released": "Jun 18, 2020",
+    "year": 2020,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/753640/"
+  },
+  {
+    "id": 383870,
+    "title": "Firewatch",
+    "developer": "Campo Santo",
+    "genre": "Adventure",
+    "released": "Feb 9, 2016",
+    "year": 2016,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/383870/"
+  },
+  {
+    "id": 501300,
+    "title": "What Remains of Edith Finch",
+    "developer": "Giant Sparrow",
+    "genre": "Adventure",
+    "released": "Apr 24, 2017",
+    "year": 2017,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/501300/"
+  },
+  {
+    "id": 653530,
+    "title": "Return of the Obra Dinn",
+    "developer": "Lucas Pope",
+    "genre": "Puzzle",
+    "released": "Oct 18, 2018",
+    "year": 2018,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/653530/"
+  },
+  {
+    "id": 736260,
+    "title": "Baba Is You",
+    "developer": "Hempuli Oy",
+    "genre": "Puzzle",
+    "released": "Mar 13, 2019",
+    "year": 2019,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/736260/"
+  },
+  {
+    "id": 210970,
+    "title": "The Witness",
+    "developer": "Thekla, Inc.",
+    "genre": "Puzzle",
+    "released": "Jan 26, 2016",
+    "year": 2016,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/210970/"
+  },
+  {
+    "id": 553420,
+    "title": "TUNIC",
+    "developer": "TUNIC Team",
+    "genre": "Adventure",
+    "released": "Mar 16, 2022",
+    "year": 2022,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/553420/"
+  },
+  {
+    "id": 387290,
+    "title": "Ori and the Blind Forest: Definitive Edition",
+    "developer": "Moon Studios GmbH",
+    "genre": "Platformer",
+    "released": "Apr 27, 2016",
+    "year": 2016,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/387290/"
+  },
+  {
+    "id": 1057090,
+    "title": "Ori and the Will of the Wisps",
+    "developer": "Moon Studios GmbH",
+    "genre": "Platformer",
+    "released": "Mar 10, 2020",
+    "year": 2020,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/1057090/"
+  },
+  {
+    "id": 250900,
+    "title": "The Binding of Isaac: Rebirth",
+    "developer": "Nicalis, Inc., Edmund McMillen",
+    "genre": "Action",
+    "released": "Nov 4, 2014",
+    "year": 2014,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/250900/"
+  },
+  {
+    "id": 268910,
+    "title": "Cuphead",
+    "developer": "Studio MDHR Entertainment Inc.",
+    "genre": "Platformer",
+    "released": "Sep 29, 2017",
+    "year": 2017,
+    "mode": "Co-op available",
+    "source": "https://store.steampowered.com/app/268910/"
+  },
+  {
+    "id": 311690,
+    "title": "Enter the Gungeon",
+    "developer": "Dodge Roll",
+    "genre": "Action",
+    "released": "Apr 5, 2016",
+    "year": 2016,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/311690/"
+  },
+  {
+    "id": 237930,
+    "title": "Transistor",
+    "developer": "Supergiant Games",
+    "genre": "Action",
+    "released": "May 20, 2014",
+    "year": 2014,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/237930/"
+  },
+  {
+    "id": 460950,
+    "title": "Katana ZERO",
+    "developer": "Askiisoft",
+    "genre": "Action",
+    "released": "Apr 18, 2019",
+    "year": 2019,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/460950/"
+  },
+  {
+    "id": 221910,
+    "title": "The Stanley Parable",
+    "developer": "Galactic Cafe",
+    "genre": "Adventure",
+    "released": "Oct 17, 2013",
+    "year": 2013,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/221910/"
+  },
+  {
+    "id": 418370,
+    "title": "Resident Evil 7 Biohazard",
+    "developer": "CAPCOM Co., Ltd.",
+    "genre": "Survival",
+    "released": "Jan 23, 2017",
+    "year": 2017,
+    "mode": "Single-player",
+    "source": "https://store.steampowered.com/app/418370/"
+  }
+]

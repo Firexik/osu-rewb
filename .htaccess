@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^(?:app|bin|config|data|docs|log|temp|vendor|\.git|\.idea)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:composer\.(?:json|lock)|README\.md)$ - [F,L,NC]
+RewriteRule ^$ www/ [R=302,L]
