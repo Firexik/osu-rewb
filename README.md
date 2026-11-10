@@ -35,6 +35,7 @@ je nejprve doinstaluje `composer install`.
 | Podrobnosti v modálním okně | Home → Quick look |
 | 60 skutečných her, hledání, řazení, stránkování | Games |
 | Skutečný textový obsah a různé styly tlačítek | Reviews, About, Home |
+| Vložené video v responzivním kontejneru `ratio-16x9` | Reviews → Portal 2 in motion |
 | Tři přepínatelné záložky | Genres |
 | 13 polí, text, radio, checkbox, select, textarea, Input Group, Save | Play Planner |
 | Mobilní wireframe a popis | `docs/wireframe-mobile.png`, `docs/wireframe.txt` |
@@ -69,3 +70,5 @@ Zdrojové údaje, obrázky a licence jsou uvedeny na stránce About.
 Ověřeno v prohlížeči pro Nette i export při šířkách 320, 390, 768 a 1440 px:
 šest stránek, menu, obrázky, carousel, modal, záložky, DataTables a ukládání
 plánu po obnovení stránky. Ověřena také serverová validace a ochrana formuláře.
+Video na Reviews zachovává poměr 16:9 i na telefonu; breadcrumb na vnitřních
+stránkách má podobu Home › název stránky a umožňuje návrat na Home.
