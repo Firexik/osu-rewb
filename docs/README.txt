@@ -1,12 +1,13 @@
 REWB – Responzivní webové stránky
 ZS 2026/2027, KIP/7REWB, Ostravská univerzita
-Export přihlášeného Moodle kurzu ze dne 12. 10. 2026 (Europe/Prague)
+Export přihlášeného Moodle kurzu aktualizovaný 10. 11. 2026 (Europe/Prague)
+První export: 12. 10. 2026
 Zdroj: https://moodle.osu.cz/course/view.php?id=12050
 
 CO OTEVŘÍT
 kurz.html – čitelný offline výpis osnovy, úplných zadání a odkazů na přílohy.
 export/ – původní texty stránek a strukturované seznamy sekcí, zadání a souborů.
-materialy/ – všech 9 dostupných původních souborů ke stažení.
+materialy/ – všech 11 aktuálních příloh a 6 archivních prezentací PPT.
 manifest.json – zdrojové URL, velikosti a SHA-256 stažených příloh.
 
 SOUHRN KURZU
@@ -88,25 +89,30 @@ Výsledek se má předvést na dalším cvičení; kalendářní termín v PDF n
 Původní PDF s ukázkami rozvržení: materialy/task-modal.pdf.
 Automaticky extrahovaný text: export/homework-modal.txt (může mít nepřesné odrážky).
 
-ROZSAH A ÚPLNOST EXPORTU
-- 10 hlavních sekcí a 1 podsekce; celkem 14 dostupných aktivit:
-  1 textová stránka, 1 fórum, 3 zadání a 9 souborových materiálů.
+ROZSAH A ÚPLNOST EXPORTU – OVĚŘENO 10. 11. 2026
+- 10 dostupných sekcí, celkem 16 aktivit: 1 textová stránka, 1 fórum,
+  3 zadání a 11 souborových materiálů.
+- Všech 11 aktuálních příloh bylo znovu staženo a porovnáno pomocí SHA-256.
+- Šest původních prezentací PPT bylo v Moodle nahrazeno novými PPTX.
+  Aktuální soubory začínají čísly 1 až 6. Původní PPT zůstávají jako archiv;
+  manifest je odděluje do archivedFiles, odkazy v kurz.html vedou na aktuální PPTX.
+- Sekce Practices je nyní přístupná. Obsahuje Homework - modal,
+  Homework - article detail a Extra homework (only for adressed students).
+- task-detail-article.pdf již v repozitáři byl; stažená příloha je totožná.
+  Původní záznam o získání z chatu 28. 10. 2026 zůstává v supplements manifestu.
+- Nové zadání: materialy/task-extra-homework.pdf, pouze pro oslovené studenty.
+- Foundation, Tailwind a task-modal.pdf mají stejné kontrolní součty jako dříve.
+- Zadání Semester project, Task 1 a Task 2 byla znovu načtena; termíny se nezměnily.
 - Fórum Oznámení: „Dosud nebyla vložena žádná oznámení.“
-- Hlavní sekce Practices (id 144002): „Není dostupné“; obsah nebyl přístupný.
-- Podsekce Practices (id 146639): otevřená a ověřená jako prázdná.
-- Všechny dostupné soubory byly staženy v původním formátu. Prezentace jsou
-  v původním PPT; výpis kurzu není přepis všech snímků těchto prezentací.
-- Foundation a Tailwind jsou ZIPy s výukovými ukázkami. Zůstávají jako původní
-  podklady uvnitř docs/materialy, nerozbalené do pracovního aplikačního kódu.
-- Externí odkazy v zadáních jsou zachované; externí weby nejsou zrcadlené.
+- Externí odkazy jsou zachované; externí weby nejsou zrcadlené.
 - Export zachovává obsah a členění, nikoli navigační prvky a vzhled Moodle.
-- Jde o jednorázový stav k datu exportu; pozdější změny Moodle nejsou zahrnuté.
+- Jde o jednorázový stav k datu exportu; pozdější změny nejsou zahrnuté.
+- Výpis kurzu není přepis všech snímků prezentací. Přílohy jsou v původním formátu.
 
-ORGANIZACE VĚTVÍ
-main obsahuje pouze docs se studijními podklady. Původní aplikační soubory
-byly odstraněny z této větve běžným commitem; historie zůstává zachovaná.
-Existující master a cv2-6.10.2026 nebyly změněny. Větve cv a ukol v době
-exportu neexistovaly a nebyly vytvořeny.
+ORGANIZACE PODKLADŮ
+Aktualizace je v docs vedle existujícího kódu na aktuální pracovní větvi.
+Pracovní kopie je na Proton Drive. Aktualizace se týká pouze docs;
+rozpracované změny zdrojů, ikon a nastavení IDE nejsou součástí commitu.
 
 DOPLNĚNÍ ZE DNE 28. 10. 2026 – ÚKOL 3
 Původní příloha z chatu: materialy/task-detail-article.pdf. Datum získání,

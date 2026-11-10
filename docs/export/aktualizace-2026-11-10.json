@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-10",
+  "branch": "cv6-3.11.2026",
+  "sections": 10,
+  "activities": 16,
+  "files": 11,
+  "changes": [
+    {
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802283",
+      "title": "PPT presentation",
+      "previousFile": "responsive-web-pages-introduction.ppt",
+      "file": "1-responsive-web-pages-introduction.pptx",
+      "alreadyPresent": false
+    },
+    {
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802284",
+      "title": "PPT presentation",
+      "previousFile": "structure-of-responsive-webpages.ppt",
+      "file": "2-structure-of-responsive-webpages.pptx",
+      "alreadyPresent": false
+    },
+    {
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802285",
+      "title": "PPT presentation",
+      "previousFile": "current-frameworks-for-responsive-web.ppt",
+      "file": "3-current-frameworks-for-responsive-web.pptx",
+      "alreadyPresent": false
+    },
+    {
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802286",
+      "title": "PPT presentation",
+      "previousFile": "flexbox-and-grid-system.ppt",
+      "file": "4-flexbox-and-grid-system.pptx",
+      "alreadyPresent": false
+    },
+    {
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802287",
+      "title": "PPT presentation",
+      "previousFile": "practical-usage-of-the-bootstrap-framework-I.ppt",
+      "file": "5-practical-usage-of-the-bootstrap-framework-I.pptx",
+      "alreadyPresent": false
+    },
+    {
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802288",
+      "title": "PPT presentation",
+      "previousFile": "practical-usage-of-the-bootstrap-framework-II.ppt",
+      "file": "6-practical-usage-of-the-bootstrap-framework-II.pptx",
+      "alreadyPresent": false
+    },
+    {
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802306",
+      "title": "Homework - article detail",
+      "previousFile": null,
+      "file": "task-detail-article.pdf",
+      "alreadyPresent": true
+    },
+    {
+      "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802317",
+      "title": "Extra homework (only for adressed students)",
+      "previousFile": null,
+      "file": "task-extra-homework.pdf",
+      "alreadyPresent": false
+    }
+  ],
+  "unchangedFiles": [
+    "foundation.zip",
+    "tailwind.zip",
+    "task-modal.pdf"
+  ],
+  "note": "Obrázek semestrálního projektu není v REWB přítomen; uživatel požadavek odvolal. Původní PPT zůstávají archivované, aktuální prezentace jsou PPTX."
+}

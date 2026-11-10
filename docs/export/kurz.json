@@ -1,7 +1,7 @@
 {
   "course": "ZS 2026/2027 - Responzivní webové stránky (KIP/7REWB)",
   "url": "https://moodle.osu.cz/course/view.php?id=12050",
-  "exportDate": "2026-10-12",
+  "exportDate": "2026-11-10",
   "sections": [
     {
       "id": "143993",
@@ -129,10 +129,6 @@
         {
           "title": "Task 2\nÚkol",
           "url": "https://moodle.osu.cz/mod/assign/view.php?id=802291"
-        },
-        {
-          "title": "Homework - modal\nSoubor",
-          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802295"
         }
       ],
       "summary": "Correspondence tasks (only for XREWB and 2REWB students)",
@@ -141,20 +137,25 @@
       "status": "Dostupné"
     },
     {
-      "id": "146639",
-      "links": [],
-      "summary": "",
-      "title": "Practices",
-      "url": "https://moodle.osu.cz/course/section.php?id=146639",
-      "status": "Prázdná podsekce"
-    },
-    {
       "id": "144002",
-      "links": [],
+      "links": [
+        {
+          "title": "Homework - modal\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802295"
+        },
+        {
+          "title": "Homework - article detail\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802306"
+        },
+        {
+          "title": "Extra homework (only for adressed students)\nSoubor",
+          "url": "https://moodle.osu.cz/mod/resource/view.php?id=802317"
+        }
+      ],
       "summary": "",
       "title": "Practices",
       "url": "https://moodle.osu.cz/course/section.php?id=144002",
-      "status": "Není dostupné"
+      "status": "Dostupné"
     }
   ]
 }

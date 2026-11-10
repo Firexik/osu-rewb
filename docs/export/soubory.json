@@ -1,56 +1,79 @@
 [
   {
+    "file": "foundation.zip",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115477/mod_resource/content/1/foundation.zip?forcedownload=1",
     "title": "Example website using framework Foundation",
     "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802280",
-    "file": "foundation.zip",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115477/mod_resource/content/1/foundation.zip?forcedownload=1"
+    "path": "materialy/foundation.zip"
   },
   {
-    "title": "Example website using framework Tailwind CSS",
-    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802281&forceview=1",
     "file": "tailwind.zip",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115478/mod_resource/content/1/tailwind.zip?forcedownload=1"
+    "url": "https://moodle.osu.cz/pluginfile.php/1115478/mod_resource/content/1/tailwind.zip?forcedownload=1",
+    "title": "Example website using framework Tailwind CSS",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802281",
+    "path": "materialy/tailwind.zip"
   },
   {
-    "file": "responsive-web-pages-introduction.ppt",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115480/mod_resource/content/2/responsive-web-pages-introduction.ppt?forcedownload=1",
-    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802283&forceview=1",
-    "title": "PPT presentation"
+    "file": "1-responsive-web-pages-introduction.pptx",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115480/mod_resource/content/3/1-responsive-web-pages-introduction.pptx?forcedownload=1",
+    "title": "PPT presentation",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802283",
+    "path": "materialy/1-responsive-web-pages-introduction.pptx"
   },
   {
-    "file": "structure-of-responsive-webpages.ppt",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115481/mod_resource/content/3/structure-of-responsive-webpages.ppt?forcedownload=1",
-    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802284&forceview=1",
-    "title": "PPT presentation"
+    "file": "2-structure-of-responsive-webpages.pptx",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115481/mod_resource/content/4/2-structure-of-responsive-webpages.pptx?forcedownload=1",
+    "title": "PPT presentation",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802284",
+    "path": "materialy/2-structure-of-responsive-webpages.pptx"
   },
   {
-    "file": "current-frameworks-for-responsive-web.ppt",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115482/mod_resource/content/2/current-frameworks-for-responsive-web.ppt?forcedownload=1",
-    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802285&forceview=1",
-    "title": "PPT presentation"
+    "file": "3-current-frameworks-for-responsive-web.pptx",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115482/mod_resource/content/3/3-current-frameworks-for-responsive-web.pptx?forcedownload=1",
+    "title": "PPT presentation",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802285",
+    "path": "materialy/3-current-frameworks-for-responsive-web.pptx"
   },
   {
-    "file": "flexbox-and-grid-system.ppt",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115483/mod_resource/content/2/flexbox-and-grid-system.ppt?forcedownload=1",
-    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802286&forceview=1",
-    "title": "PPT presentation"
+    "file": "4-flexbox-and-grid-system.pptx",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115483/mod_resource/content/3/4-flexbox-and-grid-system.pptx?forcedownload=1",
+    "title": "PPT presentation",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802286",
+    "path": "materialy/4-flexbox-and-grid-system.pptx"
   },
   {
-    "file": "practical-usage-of-the-bootstrap-framework-I.ppt",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115484/mod_resource/content/2/practical-usage-of-the-bootstrap-framework-I.ppt?forcedownload=1",
-    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802287&forceview=1",
-    "title": "PPT presentation"
+    "file": "5-practical-usage-of-the-bootstrap-framework-I.pptx",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115484/mod_resource/content/3/5-practical-usage-of-the-bootstrap-framework-I.pptx?forcedownload=1",
+    "title": "PPT presentation",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802287",
+    "path": "materialy/5-practical-usage-of-the-bootstrap-framework-I.pptx"
   },
   {
-    "file": "practical-usage-of-the-bootstrap-framework-II.ppt",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115485/mod_resource/content/1/practical-usage-of-the-bootstrap-framework-II.ppt?forcedownload=1",
-    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802288&forceview=1",
-    "title": "PPT presentation"
+    "file": "6-practical-usage-of-the-bootstrap-framework-II.pptx",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115485/mod_resource/content/2/6-practical-usage-of-the-bootstrap-framework-II.pptx?forcedownload=1",
+    "title": "PPT presentation",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802288",
+    "path": "materialy/6-practical-usage-of-the-bootstrap-framework-II.pptx"
   },
   {
-    "title": "Homework - modal",
-    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802295&forceview=1",
     "file": "task-modal.pdf",
-    "url": "https://moodle.osu.cz/pluginfile.php/1115492/mod_resource/content/1/task-modal.pdf"
+    "url": "https://moodle.osu.cz/pluginfile.php/1115492/mod_resource/content/1/task-modal.pdf",
+    "title": "Homework - modal",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802295",
+    "path": "materialy/task-modal.pdf"
+  },
+  {
+    "file": "task-detail-article.pdf",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115503/mod_resource/content/1/task-detail-article.pdf",
+    "title": "Homework - article detail",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802306",
+    "path": "materialy/task-detail-article.pdf"
+  },
+  {
+    "file": "task-extra-homework.pdf",
+    "url": "https://moodle.osu.cz/pluginfile.php/1115514/mod_resource/content/1/task-extra-homework.pdf",
+    "title": "Extra homework (only for adressed students)",
+    "activity": "https://moodle.osu.cz/mod/resource/view.php?id=802317",
+    "path": "materialy/task-extra-homework.pdf"
   }
 ]

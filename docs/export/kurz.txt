@@ -118,6 +118,7 @@ Sbalit
 Practices
 Homework - modal
 Soubor
-Sbalit
-Practices
-Není dostupné
+Homework - article detail
+Soubor
+Extra homework (only for adressed students)
+Soubor
