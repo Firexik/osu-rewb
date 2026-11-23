@@ -43,7 +43,8 @@ je nejprve doinstaluje `composer install`.
 
 Zmenši okno na telefon: menu se sbalí, karty i formulář jsou pod sebou.
 Tabulka se posouvá pouze ve svém kontejneru. Ve formuláři vyzkoušej
-prázdné odeslání, potom vyplň plán a stiskni Save; plán zůstane po obnovení.
+název složený z mezer, desetinný počet sezení nebo datum mimo kalendář.
+Pak hodnoty oprav a stiskni Save. Uložený plán zůstane po obnovení stránky.
 
 ## Kód a publikování
 
@@ -72,3 +73,5 @@ Ověřeno v prohlížeči pro Nette i export při šířkách 320, 390, 768 a 14
 plánu po obnovení stránky. Ověřena také serverová validace a ochrana formuláře.
 Video na Reviews zachovává poměr 16:9 i na telefonu; breadcrumb na vnitřních
 stránkách má podobu Home › název stránky a umožňuje návrat na Home.
+Ověřeny i krajní hodnoty formuláře, dlouhé poznámky na telefonu, nedostupné
+úložiště prohlížeče, hledání bez výsledků a ruční přepínání při pauze carouselu.

@@ -1,5 +1,5 @@
 {block content}
-<div id="featuredGames" class="carousel slide overflow-hidden rounded-3 mb-5" data-bs-theme="light" data-bs-ride="carousel" data-bs-interval="6500">
+<div id="featuredGames" class="carousel slide overflow-hidden rounded-3 mb-5" data-bs-theme="light" data-bs-interval="6500">
     <div class="carousel-indicators">
         <button n:foreach="$featured as $game" type="button" data-bs-target="#featuredGames" data-bs-slide-to="{$iterator->counter0}" n:class="$iterator->first ? active" aria-current="{$iterator->first ? 'true' : 'false'}" aria-label="{$game['title']}"></button>
     </div>

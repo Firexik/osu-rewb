@@ -22,6 +22,8 @@ th { white-space: nowrap; }
 #gamesTable td:first-child { min-width: 180px; }
 .tab-pane { min-height: 220px; }
 .form-label, legend { font-weight: 500; }
+#planSummary { overflow-wrap: anywhere; }
+#planSummary p { white-space: pre-wrap; }
 .skip-link { position: absolute; z-index: 10; padding: 1rem; background: #15171b; }
 [id] { scroll-margin-top: 1.5rem; }
 @media (max-width: 575.98px) {
