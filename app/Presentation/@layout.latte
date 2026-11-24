@@ -1,56 +1,85 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="cs">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Playlog is a small gaming catalogue with game notes, genre guides and a personal play planner.">
-    <title>{$pageTitle} · Playlog</title>
-    <link rel="icon" href="assets/icons/controller.svg" type="image/svg+xml">
+    <meta name="description" content="Nové Místo je ukázkový přehled novostaveb v Česku a rezidencí u moře.">
+    <meta name="theme-color" content="#ffffff">
+    <title>Nové Místo – Novostavby v Česku a u moře</title>
+    <link rel="icon" href="assets/images/nove-misto.png" type="image/png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v=2">
-    {block head}{/block}
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/app.js" defer></script>
 </head>
-<body data-static-preview="{$staticPreview ? 'true' : 'false'}" class="d-flex flex-column min-vh-100">
-<a class="visually-hidden-focusable skip-link" href="#main">Skip to content</a>
-<header class="border-bottom">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Main navigation">
-        <div class="container">
-            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" n:href="home">
-                <img src="assets/icons/controller.svg" width="26" height="26" alt=""> Playlog<span class="text-primary">.</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar-nav ms-auto gap-lg-1">
-                    {foreach $pages as $action => [$label, $icon]}
-                        <li class="nav-item"><a n:href="$action" n:class="nav-link, $presenter->isLinkCurrent($action) ? active" aria-current="{$presenter->isLinkCurrent($action) ? 'page' : 'false'}"><img src="assets/icons/{$icon}.svg" width="15" height="15" class="nav-icon me-1" alt="">{$label}</a></li>
-                    {/foreach}
-                </ul>
-            </div>
+<body id="zacatek">
+<a class="skip-link visually-hidden-focusable" href="#obsah">Přejít k obsahu</a>
+
+<header class="site-header">
+    <div class="page-width header-inner">
+        <a class="brand" href="#zacatek" aria-label="Nové Místo – úvod">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>nové<span class="brand-accent">místo</span></span>
+        </a>
+
+        <form class="header-search" id="project-search" action="#projekty" method="get" role="search" aria-label="Vyhledat projekty v Česku">
+            <label class="visually-hidden" for="project-query">Město, název projektu nebo dispozice</label>
+            <span class="icon icon-search search-icon" aria-hidden="true"></span>
+            <input id="project-query" name="q" type="search" placeholder="Město nebo projekt" maxlength="80">
+            <button class="search-button" type="submit">Hledat</button>
+        </form>
+
+        <div class="header-actions">
+            <a class="button-primary header-contact" href="#" aria-disabled="true">Kontaktujte nás</a>
+            <details class="header-menu" id="header-menu">
+                <summary class="menu-toggle" aria-label="Hlavní nabídka">
+                    <span class="icon icon-menu" aria-hidden="true"></span>
+                    <span class="icon icon-close" aria-hidden="true"></span>
+                </summary>
+                <nav class="menu-panel" aria-label="Hlavní navigace">
+                    <a href="#projekty">Novostavby v Česku</a>
+                    <a href="#u-more">Bydlení u moře</a>
+                    <a href="#pruvodce">Průvodce výběrem</a>
+                    <a href="#" aria-disabled="true">Hypotéky</a>
+                    <a href="#" aria-disabled="true">Investice</a>
+                    <a href="#" aria-disabled="true">Kontaktujte nás</a>
+                </nav>
+            </details>
         </div>
-    </nav>
+    </div>
 </header>
-<main id="main" class="container py-4 py-md-5 flex-grow-1" tabindex="-1">
-    <nav aria-label="Breadcrumb" class="mb-4">
-        <ol class="breadcrumb mb-0" style="--bs-breadcrumb-divider: '›';">
-            {if $presenter->getAction() === 'home'}
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
-            {else}
-                <li class="breadcrumb-item"><a n:href="home">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">{$pageTitle}</li>
-            {/if}
-        </ol>
-    </nav>
-    <div n:foreach="$flashes as $flash" class="alert alert-{$flash->type}" role="status">{$flash->message}</div>
+
+<main id="obsah" tabindex="-1">
     {include content}
 </main>
-<footer class="border-top py-4 mt-4">
-    <div class="container d-flex flex-column flex-sm-row justify-content-between gap-2 small text-body-secondary">
-        <span><strong class="text-body">Playlog.</strong> A little space for good games.</span>
-        <a href="{link about}#sources" class="link-secondary">About &amp; sources</a>
+
+<footer class="site-footer">
+    <div class="page-width footer-main">
+        <div class="footer-intro">
+            <a class="brand" href="#zacatek" aria-label="Nové Místo – zpět na začátek">
+                <span class="brand-mark" aria-hidden="true"></span>
+                <span>nové<span class="brand-accent">místo</span></span>
+            </a>
+            <p>Přehled novostaveb v Česku a rezidencí u moře.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Navigace v zápatí">
+            <div>
+                <h2>Nemovitosti</h2>
+                <a href="#projekty">Projekty v Česku</a>
+                <a href="#u-more">Bydlení u moře</a>
+                <a href="#pruvodce">Průvodce výběrem</a>
+            </div>
+            <div>
+                <h2>Nové Místo</h2>
+                <a href="#" aria-disabled="true">O nás</a>
+                <a href="#" aria-disabled="true">Pro developery</a>
+                <a href="#" aria-disabled="true">Kontakt</a>
+            </div>
+        </nav>
+    </div>
+    <div class="page-width footer-bottom">
+        <p>Ukázkový realitní web. Projekty, ceny a fotografie jsou ilustrační.</p>
+        <a href="#zacatek">Zpět nahoru</a>
     </div>
 </footer>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/app.js?v=2"></script>
-{block scripts}{/block}
 </body>
 </html>

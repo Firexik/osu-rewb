@@ -10,7 +10,7 @@ final class Bootstrap
     public static function boot(): Container
     {
         $root = dirname(__DIR__);
-        foreach (['temp', 'temp/sessions', 'log'] as $directory) {
+        foreach (['temp/novemisto', 'log'] as $directory) {
             if (!is_dir($root . '/' . $directory)) {
                 mkdir($root . '/' . $directory, 0770, true);
             }
@@ -19,7 +19,7 @@ final class Bootstrap
         $configurator = new Configurator;
         $configurator->setDebugMode(false);
         $configurator->enableTracy($root . '/log');
-        $configurator->setTempDirectory($root . '/temp');
+        $configurator->setTempDirectory($root . '/temp/novemisto');
         $configurator->addConfig($root . '/config/common.neon');
         return $configurator->createContainer();
     }

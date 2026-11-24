@@ -1,0 +1,80 @@
+<?php declare(strict_types=1);
+
+return [
+    'domestic' => [
+        [
+            'name' => 'Karlínský dvůr',
+            'location' => 'Praha 8 · Karlín',
+            'type' => 'Byty',
+            'details' => '1+kk až 4+kk',
+            'price' => '6 490 000 Kč',
+            'image' => 'karlinsky-dvur',
+        ],
+        [
+            'name' => 'Rezidence V Zahradách',
+            'location' => 'Brno · Žabovřesky',
+            'type' => 'Byty',
+            'details' => '2+kk až 4+kk',
+            'price' => '5 290 000 Kč',
+            'image' => 'rezidence-v-zahradach',
+        ],
+        [
+            'name' => 'Domy Pod Lesem',
+            'location' => 'Ostrava · Poruba',
+            'type' => 'Rodinné domy',
+            'details' => '4+kk a 5+kk',
+            'price' => '8 990 000 Kč',
+            'image' => 'domy-pod-lesem',
+        ],
+        [
+            'name' => 'Lofty Na Nábřeží',
+            'location' => 'Praha 7 · Holešovice',
+            'type' => 'Byty',
+            'details' => '2+kk až 4+kk',
+            'price' => '7 790 000 Kč',
+            'image' => 'lofty-na-nabrezi',
+        ],
+        [
+            'name' => 'Byty Na Stráni',
+            'location' => 'Plzeň · Bory',
+            'type' => 'Byty',
+            'details' => '1+kk až 3+kk',
+            'price' => '4 490 000 Kč',
+            'image' => 'byty-na-strani',
+        ],
+        [
+            'name' => 'Domy U Potoka',
+            'location' => 'Říčany · Středočeský kraj',
+            'type' => 'Rodinné domy',
+            'details' => '4+kk a 5+kk',
+            'price' => '9 490 000 Kč',
+            'image' => 'domy-u-potoka',
+        ],
+    ],
+    'coastal' => [
+        [
+            'name' => 'Casa Brava',
+            'location' => 'Costa Brava · Španělsko',
+            'type' => 'Vily',
+            'details' => '3 až 4 ložnice',
+            'price' => '475 000 €',
+            'image' => 'casa-brava',
+        ],
+        [
+            'name' => 'Vila Atlantica',
+            'location' => 'Azory · Portugalsko',
+            'type' => 'Vily',
+            'details' => '3 ložnice',
+            'price' => '389 000 €',
+            'image' => 'vila-atlantica',
+        ],
+        [
+            'name' => 'Aegea Suites',
+            'location' => 'Santorini · Řecko',
+            'type' => 'Apartmány',
+            'details' => '1 až 2 ložnice',
+            'price' => '310 000 €',
+            'image' => 'aegea-suites',
+        ],
+    ],
+];

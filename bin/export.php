@@ -1,12 +1,11 @@
 <?php declare(strict_types=1);
 
-// Render the real Nette pages; do not keep a second set of HTML templates.
+// Render the Nette homepage so the static preview shares the same templates.
 $root = dirname(__DIR__);
-$output = $root . '/dist';
+$output = $root . '/dist/novemisto';
 foreach ([$output, $root . '/temp'] as $directory) {
     if (!is_dir($directory)) { mkdir($directory, 0770, true); }
 }
-putenv('APP_EXPORT=1');
 $port = 8047;
 $log = fopen($root . '/temp/export-server.log', 'w');
 $process = proc_open([PHP_BINARY, '-S', "127.0.0.1:$port", '-t', $root . '/www', $root . '/www/router.php'], [['pipe', 'r'], $log, $log], $pipes, $root);
@@ -23,17 +22,12 @@ try {
         if ($connection) { fclose($connection); break; }
         usleep(100000);
     }
-    foreach (['index', 'games', 'reviews', 'genres', 'planner', 'about'] as $page) {
-        $html = file_get_contents("http://127.0.0.1:$port/$page.html");
-        if (!$html || !str_contains($html, '<html lang="en"')) {
-            throw new RuntimeException("Failed to render $page.html.");
-        }
-        // Keep links relative so /osu-rewb/ works on GitHub Pages too.
-        $html = str_replace(["http://127.0.0.1:$port/", 'href="/', 'action="/'], ['', 'href="', 'action="'], $html);
-        $html = preg_replace('/<input[^>]+name="_do"[^>]*>/', '', $html);
-        file_put_contents("$output/$page.html", $html);
-        echo "Exported $page.html\n";
+    $html = file_get_contents("http://127.0.0.1:$port/");
+    if (!$html || !str_contains($html, '<html lang="cs"')) {
+        throw new RuntimeException('Failed to render the homepage.');
     }
+    file_put_contents($output . '/index.html', $html);
+    echo "Exported $output/index.html\n";
     $copy = function (string $from, string $to) use (&$copy): void {
         if (!is_dir($to)) { mkdir($to, 0770, true); }
         foreach (new DirectoryIterator($from) as $file) {

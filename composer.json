@@ -1,6 +1,6 @@
 {
     "name": "firexik/rewb-playlog",
-    "description": "Playlog: a simple responsive gaming website for REWB, built with Nette and Bootstrap.",
+    "description": "Nove Misto, a responsive Czech real estate homepage for REWB.",
     "type": "project",
     "require": {
         "php": ">=8.2",
