@@ -1,6 +1,3 @@
-const menu = document.querySelector('#header-menu');
-const menuToggle = menu.querySelector('summary');
-
 function preventPlaceholderNavigation(event) {
     if (event.target.closest('a[aria-disabled="true"]')) {
         event.preventDefault();
@@ -10,61 +7,93 @@ function preventPlaceholderNavigation(event) {
 document.addEventListener('click', preventPlaceholderNavigation);
 document.addEventListener('auxclick', preventPlaceholderNavigation);
 
-document.addEventListener('click', (event) => {
-    if (menu.open && !event.defaultPrevented && (!menu.contains(event.target) || event.target.closest('nav a'))) {
-        menu.open = false;
-    }
-});
+const form = document.querySelector('#car-search');
+const input = document.querySelector('#car-query');
+const catalog = document.querySelector('#auta');
+const catalogTitle = document.querySelector('#catalog-title');
+const grid = document.querySelector('#car-grid');
+const count = document.querySelector('#catalog-count');
+const empty = document.querySelector('#catalog-empty');
+const reset = document.querySelector('#catalog-reset');
+const sort = document.querySelector('#catalog-sort');
+const filters = Array.from(catalog.querySelectorAll('[data-body-filter]'));
 
-document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && menu.open) {
-        menu.open = false;
-        menuToggle.focus();
-    }
-});
-
-const form = document.querySelector('#project-search');
-const input = document.querySelector('#project-query');
-const projects = document.querySelector('#projekty');
-const projectsTitle = document.querySelector('#projects-title');
-const feedback = document.querySelector('#search-feedback');
-const summary = document.querySelector('#search-summary');
-const reset = document.querySelector('#search-reset');
+let activeBody = '';
+let appliedQuery = '';
 
 function normalize(text) {
     return text.normalize('NFD').replace(/\p{M}/gu, '').toLocaleLowerCase('cs').trim();
 }
 
-const searchIndex = Array.from(projects.querySelectorAll('.project-card'), (card) => ({
+const cars = Array.from(grid.querySelectorAll('.car-card'), (card, index) => ({
     card,
+    index,
+    body: card.dataset.body,
+    price: Number(card.dataset.price),
+    mileage: Number(card.dataset.mileage),
     text: normalize(card.textContent),
 }));
 
-function filterProjects(query) {
-    const words = normalize(query).split(/\s+/).filter(Boolean);
-    let count = 0;
+function filterCars() {
+    const words = normalize(appliedQuery).split(/\s+/).filter(Boolean);
+    let visible = 0;
 
-    for (const { card, text } of searchIndex) {
-        const matches = words.every((word) => text.includes(word));
-        card.hidden = !matches;
-        count += Number(matches);
+    for (const { card, body, text } of cars) {
+        const matchesBody = !activeBody || activeBody === body;
+        const matchesQuery = words.every((word) => text.includes(word));
+        card.hidden = !(matchesBody && matchesQuery);
+        visible += Number(!card.hidden);
     }
 
-    feedback.hidden = words.length === 0;
-    summary.textContent = count === 0
-        ? 'Žádný projekt neodpovídá hledání. Zkuste jiné město nebo název.'
-        : 'Nalezené projekty (' + count + ')';
+    for (const filter of filters) {
+        filter.setAttribute('aria-pressed', String(filter.dataset.bodyFilter === activeBody));
+    }
+
+    count.textContent = 'Zobrazeno ' + visible + ' z ' + cars.length + ' vozů';
+    empty.hidden = visible !== 0;
+    reset.hidden = !activeBody && words.length === 0;
 }
+
+const sortFields = { default: 'index', price: 'price', mileage: 'mileage' };
+
+sort.addEventListener('change', () => {
+    const field = sortFields[sort.value];
+    const sorted = [...cars].sort((first, second) => first[field] - second[field] || first.index - second.index);
+    grid.append(...sorted.map(({ card }) => card));
+});
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    filterProjects(input.value);
-    projectsTitle.focus({ preventScroll: true });
-    projects.scrollIntoView();
+    appliedQuery = input.value;
+    filterCars();
+    catalogTitle.focus({ preventScroll: true });
+    catalog.scrollIntoView();
 });
 
+for (const filter of filters) {
+    filter.addEventListener('click', () => {
+        activeBody = filter.dataset.bodyFilter;
+        filterCars();
+    });
+}
+
+for (const link of document.querySelectorAll('[data-category], [data-fuel]')) {
+    link.addEventListener('click', (event) => {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
+            return;
+        }
+
+        activeBody = link.dataset.category || '';
+        appliedQuery = link.dataset.fuel || '';
+        input.value = appliedQuery;
+        filterCars();
+    });
+}
+
 reset.addEventListener('click', () => {
+    activeBody = '';
+    appliedQuery = '';
     input.value = '';
-    filterProjects('');
-    projectsTitle.focus({ preventScroll: true });
+    filterCars();
+    filters[0].focus({ preventScroll: true });
 });

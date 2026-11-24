@@ -1,4 +1,4 @@
-Zdroje a licence pro Nové Místo
+Zdroje a licence pro AutoMísto
 
 Bootstrap 5.3.8: Copyright 2011-2025 The Bootstrap Authors.
 Bootstrap Icons: Copyright 2019-2026 The Bootstrap Authors.
@@ -30,35 +30,35 @@ https://fonts.google.com/specimen/Manrope
 Ilustrační fotografie (Pexels License)
 https://www.pexels.com/license/
 
-hero.webp a hero-mobile.webp — Volker Thimm
-https://www.pexels.com/photo/a-modern-apartment-building-with-balconies-and-balconies-27307397/
+auto-hero.webp a auto-hero-mobile.webp — Jonas Alteneder
+https://www.pexels.com/photo/jaguar-f-type-28283931/
 
-karlinsky-dvur.webp — SHVETS production
-https://www.pexels.com/photo/green-trees-in-front-of-brown-concrete-building-with-balconies-7946853/
+volkswagen-golf.webp — Soran Ali
+https://www.pexels.com/photo/volkswagen-golf-car-parked-on-the-side-of-the-road-with-hills-20429096/
 
-rezidence-v-zahradach.webp — SHOX ART
-https://www.pexels.com/photo/modern-apartment-building-with-green-courtyard-31656168/
+toyota-rav4.webp — Prime Cinematics
+https://www.pexels.com/photo/toyota-rav4-2036544/
 
-domy-pod-lesem.webp — Sascha Weber
-https://www.pexels.com/photo/modern-luxury-apartment-building-in-spring-37253217/
+skoda-superb.webp — Emrah Ayvalı
+https://www.pexels.com/photo/photo-of-a-skoda-superb-car-15194845/
 
-lofty-na-nabrezi.webp — Francesco Ungaro
-https://www.pexels.com/photo/facade-of-contemporary-apartment-complex-with-glass-balconies-5074718/
+mercedes-tridy-e.webp — Mike Bird
+https://www.pexels.com/photo/white-mercedes-e-class-18837782/
 
-byty-na-strani.webp — Jill Evans
-https://www.pexels.com/photo/low-angle-photography-of-white-and-brown-concrete-building-2352913/
+hyundai-ioniq-5.webp — Hyundai Motor Group
+https://www.pexels.com/photo/hyundai-ioniq-5-in-snowy-sapporo-landscape-31028731/
 
-domy-u-potoka.webp — Allyson Salness
-https://www.pexels.com/photo/a-modern-house-in-a-suburban-for-sale-8288954/
+honda-civic.webp — Kaan Boyacı
+https://www.pexels.com/photo/vibrant-red-honda-civic-hatchback-in-scenic-setting-28928935/
 
-casa-brava.webp — Saul Bandera Brotheridge
-https://www.pexels.com/photo/cliffside-villa-in-costa-brava-spain-30310508/
+tesla-model-3.webp — I'm Zion
+https://www.pexels.com/photo/white-sedan-parked-on-a-road-10029873/
 
-vila-atlantica.webp — Humphrey Muleba
-https://www.pexels.com/photo/white-and-brown-concrete-building-on-a-cliff-2832183/
+audi-q5.webp — Brandon Martinez
+https://www.pexels.com/photo/a-khaki-green-2024-audi-q5-on-a-parking-lot-20220997/
 
-aegea-suites.webp — Atypeek Dgn
-https://www.pexels.com/photo/pool-on-a-terrace-with-a-view-of-the-coast-14749285/
+bmw-3-touring.webp — Willian Cittadin
+https://www.pexels.com/photo/silver-bmw-station-wagon-at-a-car-meet-in-brazil-32724493/
 
-obyvaci-pokoj.webp — Jonathan Borba
-https://www.pexels.com/photo/modern-interior-of-light-living-room-5570223/
+interier-vozu.webp — Erik Mclean
+https://www.pexels.com/photo/interior-of-car-cabin-in-daylight-4732663/

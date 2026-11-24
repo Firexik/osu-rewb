@@ -2,7 +2,7 @@
 
 // Render the Nette homepage so the static preview shares the same templates.
 $root = dirname(__DIR__);
-$output = $root . '/dist/novemisto';
+$output = $root . '/dist/automisto';
 foreach ([$output, $root . '/temp'] as $directory) {
     if (!is_dir($directory)) { mkdir($directory, 0770, true); }
 }

@@ -9,8 +9,8 @@ final class PagePresenter extends Presenter
     public function renderHome(): void
     {
         $this->getTemplate()->getLatte()->setAutoRefresh(true);
-        $projects = require __DIR__ . '/../../../data/projects.php';
-        $this->template->domesticProjects = $projects['domestic'];
-        $this->template->coastalProjects = $projects['coastal'];
+        $catalog = require __DIR__ . '/../../../data/cars.php';
+        $this->template->bodyStyles = $catalog['bodyStyles'];
+        $this->template->cars = $catalog['cars'];
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "firexik/rewb-playlog",
-    "description": "Nove Misto, a responsive Czech real estate homepage for REWB.",
+    "description": "AutoMisto, a responsive Czech used-car catalog for REWB.",
     "type": "project",
     "require": {
         "php": ">=8.2",

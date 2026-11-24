@@ -1,112 +1,132 @@
 {block content}
 <section class="hero" aria-labelledby="hero-title">
     <picture class="hero-photo">
-        <source media="(max-width: 600px)" srcset="assets/images/hero-mobile.webp">
-        <img src="assets/images/hero.webp" width="1800" height="840" alt="" fetchpriority="high">
+        <source media="(max-width: 600px)" srcset="assets/images/auto-hero-mobile.webp">
+        <img src="assets/images/auto-hero.webp" width="1800" height="840" alt="" fetchpriority="high">
     </picture>
     <div class="page-width hero-copy">
-        <h1 id="hero-title">Najděte místo,<br class="hero-break"> kde chcete žít.</h1>
-        <p>Novostavby v Česku a bydlení u moře na jednom místě.</p>
+        <h1 id="hero-title">Najděte auto,<br> které vám sedne.</h1>
+        <p>Ojeté vozy do města, pro rodinu i na delší cesty.</p>
     </div>
 </section>
 
-{var $categories = [
-    ['#projekty', 'buildings', 'Novostavby v Česku', 'Byty a rodinné domy'],
-    ['#u-more', 'sun', 'Bydlení u moře', 'Rezidence na pobřeží'],
-    ['#', 'key', 'Hypotéky', 'Financování bydlení'],
-    ['#', 'growth', 'Investice', 'Nemovitosti k pronájmu'],
-]}
 <section class="page-width categories" aria-labelledby="categories-title">
-    <h2 id="categories-title">Co právě hledáte?</h2>
-    <ul class="category-grid list-unstyled mb-0">
-        {foreach $categories as [$target, $icon, $name, $description]}
-            <li>
-                <a class="category-card" href="{$target}" n:attr="aria-disabled: $target === '#' ? 'true' : null">
-                    <span class="category-icon" aria-hidden="true"><span class="icon icon-{$icon}"></span></span>
-                    <span class="category-name">{$name}</span>
-                    <span class="category-description">{$description}</span>
+    <h2 id="categories-title">Jaké auto hledáte?</h2>
+    <ul class="row row-cols-2 row-cols-md-4 g-3 list-unstyled mb-0">
+        {foreach $bodyStyles as $type => $body}
+            <li class="col">
+                <a class="category-card" href="#auta" data-category="{$type}">
+                    <span class="category-icon" aria-hidden="true"><span class="icon icon-{$body['icon']}"></span></span>
+                    <span class="category-name">{$body['label']}</span>
+                    <span class="category-description">{$body['description']}</span>
                 </a>
             </li>
         {/foreach}
     </ul>
 </section>
 
-<section class="page-width projects section-spacing" id="projekty" aria-labelledby="projects-title">
+<section class="page-width catalog section-spacing" id="auta" aria-labelledby="catalog-title">
     <div class="section-heading">
-        <div>
-            <h2 id="projects-title" tabindex="-1">Novostavby v Česku</h2>
-            <p>Od městských bytů po rodinné domy se zahradou.</p>
-        </div>
-        <a class="button-outline" href="#" aria-disabled="true">Všechny novostavby</a>
+        <h2 id="catalog-title" tabindex="-1">Auta v nabídce</h2>
+        <label class="catalog-sort" for="catalog-sort">
+            <span>Seřadit</span>
+            <select class="form-select" id="catalog-sort">
+                <option value="default">Výchozí pořadí</option>
+                <option value="price">Od nejlevnějšího</option>
+                <option value="mileage">Nejnižší nájezd</option>
+            </select>
+        </label>
     </div>
 
-    <div class="search-feedback" id="search-feedback" hidden>
-        <p id="search-summary" role="status"></p>
-        <button class="button-outline" id="search-reset" type="button">Zrušit hledání</button>
+    <div class="catalog-controls">
+        <div class="filter-list" role="group" aria-label="Filtrovat podle karoserie">
+            <button class="btn filter-button" type="button" data-body-filter="" aria-pressed="true">Všechna auta</button>
+            {foreach $bodyStyles as $type => $body}
+                <button class="btn filter-button" type="button" data-body-filter="{$type}" aria-pressed="false">{$body['label']}</button>
+            {/foreach}
+        </div>
+        <div class="catalog-status">
+            <p id="catalog-count" role="status">Zobrazeno {=count($cars)} z {=count($cars)} vozů</p>
+            <button class="filter-reset" id="catalog-reset" type="button" hidden>Zrušit filtry</button>
+        </div>
     </div>
-    {include projectGrid, projects: $domesticProjects}
+
+    <p id="catalog-empty" class="catalog-empty" hidden>Žádné auto neodpovídá výběru. Zkuste upravit hledaný výraz nebo typ karoserie.</p>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 g-lg-4" id="car-grid">
+        {foreach $cars as $car}
+            <article class="col car-card" data-body="{$car['body']}" data-price="{$car['price']}" data-mileage="{$car['mileage']}">
+                <a class="card car-link h-100" href="#" aria-disabled="true">
+                    <div class="car-photo">
+                        <img src="assets/images/{$car['image']}.webp" width="800" height="500" alt="" loading="lazy">
+                        <span class="car-type">{$car['type']}</span>
+                    </div>
+                    <div class="card-body car-copy">
+                        <h3>{$car['name']}</h3>
+                        <ul class="car-specs list-unstyled">
+                            <li><span class="icon icon-calendar" aria-hidden="true"></span><span class="visually-hidden">Rok </span>{$car['year']}</li>
+                            <li><span class="icon icon-fuel" aria-hidden="true"></span>{$car['fuel']}</li>
+                            <li><span class="icon icon-mileage" aria-hidden="true"></span><span class="visually-hidden">Nájezd </span>{=number_format($car['mileage'], 0, ',', ' ')} km</li>
+                        </ul>
+                        <div class="car-facts">
+                            <span>{$car['gearbox']}</span>
+                            <strong>{=number_format($car['price'], 0, ',', ' ')} Kč</strong>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        {/foreach}
+    </div>
 </section>
 
 <section class="page-width guide section-spacing" id="pruvodce" aria-labelledby="guide-title">
-    <div class="guide-panel">
-        <div class="guide-copy">
-            <h2 id="guide-title">Jak vybírat nové bydlení</h2>
+    <div class="row g-0 guide-panel">
+        <div class="col-md-6 guide-copy">
+            <h2 id="guide-title">Na co se podívat před koupí</h2>
             <ul class="guide-steps list-unstyled">
                 <li>
-                    <span class="step-icon icon icon-compass" aria-hidden="true"></span>
-                    <div><h3>Porovnejte lokality</h3><p>Prověřte spojení do práce, školy i možnosti trávení volného času.</p></div>
+                    <span class="step-icon icon icon-clipboard" aria-hidden="true"></span>
+                    <div><h3>Prověřte historii vozu</h3><p>Podle VIN si ověřte dostupné záznamy. Projděte servisní doklady a porovnejte údaje o nájezdu.</p></div>
+                </li>
+                <li>
+                    <span class="step-icon icon icon-mileage" aria-hidden="true"></span>
+                    <div><h3>Domluvte si zkušební jízdu</h3><p>Vyzkoušejte studený start, řazení i brzdy. Všímejte si zvuků a vibrací.</p></div>
                 </li>
                 <li>
                     <span class="step-icon icon icon-wallet" aria-hidden="true"></span>
-                    <div><h3>Sestavte si rozpočet</h3><p>Počítejte s cenou bytu, vybavením i náklady na provoz.</p></div>
-                </li>
-                <li>
-                    <span class="step-icon icon icon-calendar" aria-hidden="true"></span>
-                    <div><h3>Naplánujte prohlídku</h3><p>Srovnejte půdorysy a místo si prohlédněte osobně.</p></div>
+                    <div><h3>Spočítejte provoz</h3><p>K ceně auta připočtěte pojištění, pravidelný servis a nové pneumatiky, pokud budou potřeba.</p></div>
                 </li>
             </ul>
-            <a class="button-primary" href="#projekty">Prohlédnout novostavby</a>
+            <a class="btn btn-primary button-primary" href="#auta">Prohlédnout nabídku</a>
         </div>
-        <img class="guide-photo" src="assets/images/obyvaci-pokoj.webp" width="1000" height="850" loading="lazy" alt="">
+        <div class="col-md-6 guide-media">
+            <img class="guide-photo" src="assets/images/interier-vozu.webp" width="1000" height="850" loading="lazy" alt="">
+        </div>
     </div>
 </section>
 
-<section class="coastal section-spacing" id="u-more" aria-labelledby="coastal-title">
+{var $drives = [
+    ['Benzín', 'fuel', 'Zvažte ho, pokud jezdíte spíš kratší trasy nebo máte menší roční nájezd.'],
+    ['Hybrid', 'cycle', 'Při časté jízdě po městě porovnejte spotřebu a stav trakční baterie.'],
+    ['Elektromobil', 'bolt', 'Před výběrem si ujasněte, kde budete nabíjet a jaký dojezd potřebujete.'],
+]}
+<section class="drives section-spacing" id="pohony" aria-labelledby="drives-title">
     <div class="page-width">
         <div class="section-heading">
-            <div>
-                <h2 id="coastal-title">Bydlení u moře</h2>
-                <p>Vily a apartmány od španělského pobřeží po řecké ostrovy.</p>
-            </div>
-            <a class="button-outline" href="#" aria-disabled="true">Všechny zahraniční projekty</a>
+            <h2 id="drives-title">Jaký pohon vám sedí?</h2>
         </div>
-        {include projectGrid, projects: $coastalProjects}
+        <div class="row row-cols-1 row-cols-md-3 g-3 g-lg-4">
+            {foreach $drives as [$fuel, $icon, $description]}
+                <div class="col">
+                    <a class="drive-card h-100" href="#auta" data-fuel="{$fuel}">
+                        <span class="drive-icon icon icon-{$icon}" aria-hidden="true"></span>
+                        <h3>{$fuel}</h3>
+                        <p>{$description}</p>
+                        <span class="drive-action">Zobrazit auta</span>
+                    </a>
+                </div>
+            {/foreach}
+        </div>
     </div>
 </section>
 {/block}
-
-{define projectGrid, array $projects}
-<div class="project-grid">
-    {foreach $projects as $project}
-        <article class="project-card">
-            <a class="project-link" href="#" aria-disabled="true">
-                <div class="project-photo">
-                    <img src="assets/images/{$project['image']}.webp" width="800" height="520" alt="" loading="lazy">
-                    <span class="project-kind">{$project['type']}</span>
-                </div>
-                <div class="project-copy">
-                    <h3>{$project['name']}</h3>
-                    <p class="project-location">
-                        <span class="icon icon-location" aria-hidden="true"></span>
-                        {$project['location']}
-                    </p>
-                    <div class="project-facts">
-                        <span>{$project['details']}</span>
-                        <strong>od {$project['price']}</strong>
-                    </div>
-                </div>
-            </a>
-        </article>
-    {/foreach}
-</div>
-{/define}

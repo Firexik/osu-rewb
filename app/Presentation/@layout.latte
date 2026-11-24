@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Nové Místo je ukázkový přehled novostaveb v Česku a rezidencí u moře.">
+    <meta name="description" content="AutoMísto je ukázkový katalog ojetých aut s přehledem cen, nájezdu a pohonu.">
     <meta name="theme-color" content="#ffffff">
-    <title>Nové Místo – Novostavby v Česku a u moře</title>
-    <link rel="icon" href="assets/images/nove-misto.png" type="image/png">
+    <title>AutoMísto – Přehled ojetých aut</title>
+    <link rel="icon" href="assets/images/automisto.png" type="image/png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/bootstrap.bundle.min.js" defer></script>
     <script src="assets/js/app.js" defer></script>
 </head>
 <body id="zacatek">
@@ -16,34 +17,33 @@
 
 <header class="site-header">
     <div class="page-width header-inner">
-        <a class="brand" href="#zacatek" aria-label="Nové Místo – úvod">
-            <span class="brand-mark" aria-hidden="true"></span>
-            <span>nové<span class="brand-accent">místo</span></span>
+        <a class="brand" href="#zacatek" aria-label="AutoMísto – úvod">
+            <img class="brand-mark" src="assets/images/automisto.png" width="40" height="40" alt="">
+            <span>auto<span class="brand-accent">místo</span></span>
         </a>
 
-        <form class="header-search" id="project-search" action="#projekty" method="get" role="search" aria-label="Vyhledat projekty v Česku">
-            <label class="visually-hidden" for="project-query">Město, název projektu nebo dispozice</label>
+        <form class="header-search" id="car-search" action="#auta" method="get" role="search" aria-label="Vyhledat auta">
+            <label class="visually-hidden" for="car-query">Značka, model nebo pohon</label>
             <span class="icon icon-search search-icon" aria-hidden="true"></span>
-            <input id="project-query" name="q" type="search" placeholder="Město nebo projekt" maxlength="80">
-            <button class="search-button" type="submit">Hledat</button>
+            <input id="car-query" name="q" type="search" placeholder="Značka nebo model" maxlength="80">
+            <button class="btn search-button" type="submit">Hledat</button>
         </form>
 
         <div class="header-actions">
-            <a class="button-primary header-contact" href="#" aria-disabled="true">Kontaktujte nás</a>
-            <details class="header-menu" id="header-menu">
-                <summary class="menu-toggle" aria-label="Hlavní nabídka">
+            <a class="btn btn-primary button-primary header-cta" href="#auta">Prohlédnout auta</a>
+            <div class="dropdown">
+                <button class="btn menu-toggle" type="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" aria-label="Hlavní nabídka">
                     <span class="icon icon-menu" aria-hidden="true"></span>
                     <span class="icon icon-close" aria-hidden="true"></span>
-                </summary>
-                <nav class="menu-panel" aria-label="Hlavní navigace">
-                    <a href="#projekty">Novostavby v Česku</a>
-                    <a href="#u-more">Bydlení u moře</a>
-                    <a href="#pruvodce">Průvodce výběrem</a>
-                    <a href="#" aria-disabled="true">Hypotéky</a>
-                    <a href="#" aria-disabled="true">Investice</a>
-                    <a href="#" aria-disabled="true">Kontaktujte nás</a>
+                </button>
+                <nav class="dropdown-menu dropdown-menu-end menu-panel" aria-label="Hlavní navigace">
+                    <a class="dropdown-item" href="#auta">Nabídka aut</a>
+                    <a class="dropdown-item" href="#pruvodce">Průvodce nákupem</a>
+                    <a class="dropdown-item" href="#pohony">Druhy pohonu</a>
+                    <a class="dropdown-item disabled" href="#" aria-disabled="true" tabindex="-1">Prodat auto</a>
+                    <a class="dropdown-item disabled" href="#" aria-disabled="true" tabindex="-1">Kontakt</a>
                 </nav>
-            </details>
+            </div>
         </div>
     </div>
 </header>
@@ -53,31 +53,31 @@
 </main>
 
 <footer class="site-footer">
-    <div class="page-width footer-main">
-        <div class="footer-intro">
-            <a class="brand" href="#zacatek" aria-label="Nové Místo – zpět na začátek">
-                <span class="brand-mark" aria-hidden="true"></span>
-                <span>nové<span class="brand-accent">místo</span></span>
+    <div class="page-width footer-main row g-0">
+        <div class="footer-intro col-md-7">
+            <a class="brand" href="#zacatek" aria-label="AutoMísto – zpět na začátek">
+                <img class="brand-mark" src="assets/images/automisto.png" width="40" height="40" alt="">
+                <span>auto<span class="brand-accent">místo</span></span>
             </a>
-            <p>Přehled novostaveb v Česku a rezidencí u moře.</p>
+            <p>Přehled ojetých aut pro skupinový projekt REWB.</p>
         </div>
-        <nav class="footer-nav" aria-label="Navigace v zápatí">
+        <nav class="footer-nav col-md-5 mt-4 mt-md-0" aria-label="Navigace v zápatí">
             <div>
-                <h2>Nemovitosti</h2>
-                <a href="#projekty">Projekty v Česku</a>
-                <a href="#u-more">Bydlení u moře</a>
-                <a href="#pruvodce">Průvodce výběrem</a>
+                <h2>Výběr auta</h2>
+                <a href="#auta">Nabídka aut</a>
+                <a href="#pruvodce">Průvodce nákupem</a>
+                <a href="#pohony">Druhy pohonu</a>
             </div>
             <div>
-                <h2>Nové Místo</h2>
+                <h2>AutoMísto</h2>
                 <a href="#" aria-disabled="true">O nás</a>
-                <a href="#" aria-disabled="true">Pro developery</a>
+                <a href="#" aria-disabled="true">Prodat auto</a>
                 <a href="#" aria-disabled="true">Kontakt</a>
             </div>
         </nav>
     </div>
     <div class="page-width footer-bottom">
-        <p>Ukázkový realitní web. Projekty, ceny a fotografie jsou ilustrační.</p>
+        <p>Nabídky, ceny a fotografie jsou ilustrační.</p>
         <a href="#zacatek">Zpět nahoru</a>
     </div>
 </footer>
