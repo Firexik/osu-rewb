@@ -74,6 +74,25 @@ final class PagePresenter extends Presenter
         $form->addCheckbox('confirm', 'I understand that this plan is saved for this browser only.')->setRequired('Confirm where your plan is saved.');
         $form->addSubmit('save', 'Save');
 
+        // Check the submitted values before treating them as text or checkboxes.
+        $form->onValidate[] = function (Form $form): void {
+            $post = $this->getHttpRequest()->getPost();
+            foreach ($form->getControls() as $control) {
+                $name = $control->getHtmlName();
+                if (isset($post[$name]) && !is_string($post[$name])) {
+                    $form->addError('Each field must contain a single value.');
+                    return;
+                }
+            }
+
+            if (($post['confirm'] ?? null) !== 'on') {
+                $form['confirm']->addError('Confirm where your plan is saved.');
+            }
+            if (isset($post['breaks']) && $post['breaks'] !== 'on') {
+                $form['breaks']->addError('Choose a valid setting for breaks.');
+            }
+        };
+
         if (getenv('APP_EXPORT') !== '1' && $this->getSession('planner')->plan) {
             $form->setDefaults($this->getSession('planner')->plan);
         }
